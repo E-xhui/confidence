@@ -1,0 +1,12 @@
+{
+  "n": 1636,
+  "max_per_condition": 400,
+  "per_condition": {
+    "closed": 400,
+    "sup": 400,
+    "mis": 383,
+    "irr": 53,
+    "same_entity_irr": 400
+  },
+  "out": "runs/phase2_with_same_entity_irr/judge_candidates.jsonl"
+}

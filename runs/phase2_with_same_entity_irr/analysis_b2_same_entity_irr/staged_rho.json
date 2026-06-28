@@ -1,0 +1,140 @@
+[
+  {
+    "estimator": "REML MixedLM staged",
+    "conditions": [
+      "irr",
+      "same_entity_irr",
+      "sup",
+      "mis"
+    ],
+    "coding": {
+      "topicality": {
+        "irr": -0.75,
+        "same_entity_irr": 0.25,
+        "sup": 0.25,
+        "mis": 0.25
+      },
+      "answer_support": {
+        "irr": 0.0,
+        "same_entity_irr": -0.6666666666666666,
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333
+      },
+      "veracity": {
+        "irr": 0.0,
+        "same_entity_irr": 0.0,
+        "sup": 0.5,
+        "mis": -0.5
+      }
+    },
+    "beta_topicality": 12.640886120129094,
+    "beta_answer_support": 9.053546316731083,
+    "beta_veracity": -1.522516184135006,
+    "sigma2_P": 1.5943860692061642,
+    "sigma2_topicality": 29.961000356638568,
+    "sigma2_answer_support": 13.66111681819916,
+    "sigma2_veracity": 0.2897569413691274,
+    "sigma2_PE": 24.91409103536568,
+    "sigma2_eps": 2.3661170849769433,
+    "rho_P": 0.021904979130304734,
+    "rho_topicality": 0.4116287141557792,
+    "rho_answer_support": 0.18768758996263732,
+    "rho_veracity": 0.003980917718825694,
+    "rho_PE": 0.34229014836533267,
+    "rho_eps": 0.03250765066712052,
+    "mixedlm_converged": true,
+    "confidence": "conf_ptrue"
+  },
+  {
+    "estimator": "REML MixedLM staged",
+    "conditions": [
+      "irr",
+      "same_entity_irr",
+      "sup",
+      "mis"
+    ],
+    "coding": {
+      "topicality": {
+        "irr": -0.75,
+        "same_entity_irr": 0.25,
+        "sup": 0.25,
+        "mis": 0.25
+      },
+      "answer_support": {
+        "irr": 0.0,
+        "same_entity_irr": -0.6666666666666666,
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333
+      },
+      "veracity": {
+        "irr": 0.0,
+        "same_entity_irr": 0.0,
+        "sup": 0.5,
+        "mis": -0.5
+      }
+    },
+    "beta_topicality": 11.78866635881151,
+    "beta_answer_support": 6.866527701392792,
+    "beta_veracity": -0.8733994733730587,
+    "sigma2_P": 0.8773121396170499,
+    "sigma2_topicality": 26.05737272238266,
+    "sigma2_answer_support": 7.858200445665762,
+    "sigma2_veracity": 0.09535333001104203,
+    "sigma2_PE": 19.096017595062616,
+    "sigma2_eps": 2.6276359239393896,
+    "rho_P": 0.015496958433910128,
+    "rho_topicality": 0.46028090087973966,
+    "rho_answer_support": 0.13880829886267507,
+    "rho_veracity": 0.0016843339160461741,
+    "rho_PE": 0.33731459712056017,
+    "rho_eps": 0.04641491078706873,
+    "mixedlm_converged": true,
+    "confidence": "conf_verbalized"
+  },
+  {
+    "estimator": "REML MixedLM staged",
+    "conditions": [
+      "irr",
+      "same_entity_irr",
+      "sup",
+      "mis"
+    ],
+    "coding": {
+      "topicality": {
+        "irr": -0.75,
+        "same_entity_irr": 0.25,
+        "sup": 0.25,
+        "mis": 0.25
+      },
+      "answer_support": {
+        "irr": 0.0,
+        "same_entity_irr": -0.6666666666666666,
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333
+      },
+      "veracity": {
+        "irr": 0.0,
+        "same_entity_irr": 0.0,
+        "sup": 0.5,
+        "mis": -0.5
+      }
+    },
+    "beta_topicality": 3.379680956841623,
+    "beta_answer_support": 4.504354593663177,
+    "beta_veracity": -1.008208068554732,
+    "sigma2_P": 0.32704612622035995,
+    "sigma2_topicality": 2.141670631882107,
+    "sigma2_answer_support": 3.381535050909093,
+    "sigma2_veracity": 0.12706043868735792,
+    "sigma2_PE": 5.410173180932178,
+    "sigma2_eps": 0.09868218889678843,
+    "rho_P": 0.028473041410373275,
+    "rho_topicality": 0.18645650169808764,
+    "rho_answer_support": 0.29440063592219157,
+    "rho_veracity": 0.01106203939540842,
+    "rho_PE": 0.47101638780512467,
+    "rho_eps": 0.008591393768814543,
+    "mixedlm_converged": true,
+    "confidence": "conf_seqlik"
+  }
+]

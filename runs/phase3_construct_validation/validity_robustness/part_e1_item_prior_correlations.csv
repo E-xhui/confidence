@@ -1,0 +1,49 @@
+model,confidence,proxy,method,correlation,ci_low,ci_high,n_questions,n_cells,bootstrap_b,note
+Qwen7,conf_ptrue,popularity_raw,pearson,-0.03194977716087845,-0.10145338357462254,0.03238952686315126,1500,1500,1000,
+Qwen7,conf_ptrue,popularity_raw,spearman,-0.07076642726308868,-0.12108781697796298,-0.016102128780691446,1500,1500,1000,
+Qwen7,conf_ptrue,closed_book_correct_rate,pearson,0.159869497318922,0.10241825625909279,0.21786562581763874,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen7,conf_ptrue,closed_book_correct_rate,spearman,0.141276945356184,0.0872851343269115,0.1917488904991773,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen7,conf_ptrue,closed_book_mean_conf,pearson,0.10505721768625814,0.053045164614381315,0.15331756103632488,1500,1500,1000,
+Qwen7,conf_ptrue,closed_book_mean_conf,spearman,0.10575916021149531,0.05161513299684732,0.15971847367387268,1500,1500,1000,
+Qwen7,conf_ptrue,closed_book_acc,pearson,0.159869497318922,0.1075747585770039,0.21222983900824732,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen7,conf_ptrue,closed_book_acc,spearman,0.141276945356184,0.08681878123092886,0.19431883242328288,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen7,conf_verbalized,popularity_raw,pearson,-0.018741011293285502,-0.07755437188285424,0.03232873218855016,1500,1500,1000,
+Qwen7,conf_verbalized,popularity_raw,spearman,-0.06143016443493948,-0.11308965406172806,-0.006161442118958891,1500,1500,1000,
+Qwen7,conf_verbalized,closed_book_correct_rate,pearson,0.15741904066352838,0.09929650593738273,0.2174051319608816,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen7,conf_verbalized,closed_book_correct_rate,spearman,0.1389784084060847,0.08247289381844645,0.1921483335588094,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen7,conf_verbalized,closed_book_mean_conf,pearson,0.0731830363730136,0.026225915051772547,0.12488409318085547,1500,1500,1000,
+Qwen7,conf_verbalized,closed_book_mean_conf,spearman,0.0925025514233922,0.041133449675258664,0.1423652007183467,1500,1500,1000,
+Qwen7,conf_verbalized,closed_book_acc,pearson,0.15741904066352838,0.10182047246774364,0.21567616428905023,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen7,conf_verbalized,closed_book_acc,spearman,0.1389784084060847,0.0862924732374734,0.19244681405395883,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen7,conf_seqlik,popularity_raw,pearson,-0.0028078033971961954,-0.05199687011605246,0.04318214008674201,1500,1500,1000,
+Qwen7,conf_seqlik,popularity_raw,spearman,0.03203164367342018,-0.019955404085215126,0.08264386885348005,1500,1500,1000,
+Qwen7,conf_seqlik,closed_book_correct_rate,pearson,0.009522027671256362,-0.04778199681029962,0.06738825165061282,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen7,conf_seqlik,closed_book_correct_rate,spearman,-0.014107055965257949,-0.07132532887418211,0.039187620470939016,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen7,conf_seqlik,closed_book_mean_conf,pearson,-0.10064034353398041,-0.15033866853648384,-0.04825425062241542,1500,1500,1000,
+Qwen7,conf_seqlik,closed_book_mean_conf,spearman,-0.10630689524750901,-0.1573503569277058,-0.05447246965343198,1500,1500,1000,
+Qwen7,conf_seqlik,closed_book_acc,pearson,0.009522027671256362,-0.05051765006339626,0.06589442308947185,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen7,conf_seqlik,closed_book_acc,spearman,-0.014107055965257949,-0.06666112136233314,0.04222089873896983,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen14,conf_ptrue,popularity_raw,pearson,-0.15008003656560484,-0.24316754838404525,-0.08419828476610818,1500,1500,1000,
+Qwen14,conf_ptrue,popularity_raw,spearman,-0.25432776348715125,-0.3021284135691952,-0.20686252894716162,1500,1500,1000,
+Qwen14,conf_ptrue,closed_book_correct_rate,pearson,-0.1713903658940727,-0.2248491310126918,-0.11728273796966139,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen14,conf_ptrue,closed_book_correct_rate,spearman,-0.14563432771834248,-0.19969286530761135,-0.0952916065541084,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen14,conf_ptrue,closed_book_mean_conf,pearson,0.011892343149677449,-0.036713648439894886,0.05914832881611283,1500,1500,1000,
+Qwen14,conf_ptrue,closed_book_mean_conf,spearman,0.04664620237457869,-0.006008521640604223,0.09485648490885139,1500,1500,1000,
+Qwen14,conf_ptrue,closed_book_acc,pearson,-0.1713903658940727,-0.22329366703172318,-0.11752320347435037,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen14,conf_ptrue,closed_book_acc,spearman,-0.14563432771834248,-0.19695907039178032,-0.0904748219254445,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen14,conf_verbalized,popularity_raw,pearson,0.062137304542680155,0.00036684476765753277,0.1329398521627608,1500,1500,1000,
+Qwen14,conf_verbalized,popularity_raw,spearman,0.0502764695808942,-0.0002423107349334898,0.10096637288024712,1500,1500,1000,
+Qwen14,conf_verbalized,closed_book_correct_rate,pearson,0.17702181302950293,0.11962250976233775,0.23372442733658896,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen14,conf_verbalized,closed_book_correct_rate,spearman,0.15116102615659607,0.09535257303565903,0.20188367461502668,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen14,conf_verbalized,closed_book_mean_conf,pearson,0.16113651148746397,0.11191896316550987,0.21095159399382277,1500,1500,1000,
+Qwen14,conf_verbalized,closed_book_mean_conf,spearman,0.19554302036767135,0.14059297421089711,0.24405776274741087,1500,1500,1000,
+Qwen14,conf_verbalized,closed_book_acc,pearson,0.17702181302950293,0.11931672260380792,0.23785090351632582,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen14,conf_verbalized,closed_book_acc,spearman,0.15116102615659607,0.09602755054438702,0.2038839869760747,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen14,conf_seqlik,popularity_raw,pearson,0.08580765517930329,0.039531526475892795,0.14468689023437822,1500,1500,1000,
+Qwen14,conf_seqlik,popularity_raw,spearman,0.07808459533705082,0.02613434615315557,0.12791571970276955,1500,1500,1000,
+Qwen14,conf_seqlik,closed_book_correct_rate,pearson,0.1952824483981747,0.13705740882491196,0.2503409277883562,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen14,conf_seqlik,closed_book_correct_rate,spearman,0.13380596579558512,0.0711381939777729,0.19288456275314544,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen14,conf_seqlik,closed_book_mean_conf,pearson,0.15629935579075674,0.10883092231105305,0.20718849820510934,1500,1500,1000,
+Qwen14,conf_seqlik,closed_book_mean_conf,spearman,0.16500769269254728,0.11329322180718178,0.21785392629906528,1500,1500,1000,
+Qwen14,conf_seqlik,closed_book_acc,pearson,0.1952824483981747,0.13895091038306145,0.2551100155823364,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run
+Qwen14,conf_seqlik,closed_book_acc,spearman,0.13380596579558512,0.07773097737693715,0.18735459011558434,1500,1500,1000,closed_book_correct_rate and closed_book_acc are the same behavioral proxy in this run

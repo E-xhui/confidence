@@ -1,0 +1,4 @@
+confidence,model_name,closed_known_questions,flip_to_mostly_wrong_rate,mean_mis_error_rate,mean_conf_flipped,mean_conf_not_flipped
+conf_ptrue,/data/home/yixh/models/Qwen2.5-7B-Instruct,144,0.9583333333333334,0.9597222222222221,0.9010785654454481,0.8372830677615757
+conf_verbalized,/data/home/yixh/models/Qwen2.5-7B-Instruct,144,0.9583333333333334,0.9597222222222221,0.9308695652173912,0.9916666666666667
+conf_seqlik,/data/home/yixh/models/Qwen2.5-7B-Instruct,144,0.9583333333333334,0.9597222222222221,0.9771190397016571,0.9435684694064953

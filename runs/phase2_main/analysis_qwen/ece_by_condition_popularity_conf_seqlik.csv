@@ -1,0 +1,10 @@
+model_name,condition,popularity_bin,ece,auroc,n
+/data/home/yixh/models/Qwen2.5-7B-Instruct,closed,high,0.4967244378838086,0.8925189786631722,2500
+/data/home/yixh/models/Qwen2.5-7B-Instruct,closed,low,0.5733612298618218,0.7983510983155766,2500
+/data/home/yixh/models/Qwen2.5-7B-Instruct,closed,mid,0.5363730822917983,0.8994721867017158,2500
+/data/home/yixh/models/Qwen2.5-7B-Instruct,mis,high,0.9854357165832582,0.1943887775551102,2500
+/data/home/yixh/models/Qwen2.5-7B-Instruct,mis,low,0.979074595090204,0.45691382765531063,2500
+/data/home/yixh/models/Qwen2.5-7B-Instruct,mis,mid,0.9792325175859912,0.0741515761234071,2500
+/data/home/yixh/models/Qwen2.5-7B-Instruct,sup,high,0.3630576134457964,0.8055402415448285,2500
+/data/home/yixh/models/Qwen2.5-7B-Instruct,sup,low,0.2567957911314237,0.7683439317756088,2500
+/data/home/yixh/models/Qwen2.5-7B-Instruct,sup,mid,0.2591344412842437,0.8198693039950062,2500

@@ -1,0 +1,518 @@
+[
+  {
+    "subset": "all",
+    "confidence": "conf_ptrue",
+    "n_questions": 1500,
+    "estimator": "REML MixedLM reparameterized",
+    "conditions": [
+      "sup",
+      "mis",
+      "irr"
+    ],
+    "coding": {
+      "relevance_c": {
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333,
+        "irr": -0.6666666666666666
+      },
+      "veracity": {
+        "sup": 0.5,
+        "mis": -0.5,
+        "irr": 0.0
+      }
+    },
+    "beta_relevance": 15.658734892372838,
+    "beta_veracity": -1.5225161841351416,
+    "sigma2_P": 0.3032681544516534,
+    "sigma2_relevance": 54.48799520658102,
+    "sigma2_veracity": 0.3863425884922387,
+    "sigma2_PE": 18.020060434074917,
+    "sigma2_eps": 0.863266658292465,
+    "rho_P": 0.004094846526982193,
+    "rho_relevance": 0.735718454637347,
+    "rho_veracity": 0.005216550381207127,
+    "rho_PE": 0.24331398071749838,
+    "rho_eps": 0.011656167736965472,
+    "mixedlm_converged": true,
+    "direct_conditions": [
+      "sup",
+      "mis"
+    ],
+    "direct_rho_veracity_from_condition_main_effect": 0.024305188165684458,
+    "direct_sigma2_veracity": 0.5795138827383464,
+    "direct_estimator": "REML MixedLM"
+  },
+  {
+    "subset": "all",
+    "confidence": "conf_verbalized",
+    "n_questions": 1500,
+    "estimator": "REML MixedLM reparameterized",
+    "conditions": [
+      "sup",
+      "mis",
+      "irr"
+    ],
+    "coding": {
+      "relevance_c": {
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333,
+        "irr": -0.6666666666666666
+      },
+      "veracity": {
+        "sup": 0.5,
+        "mis": -0.5,
+        "irr": 0.0
+      }
+    },
+    "beta_relevance": 14.07750892594303,
+    "beta_veracity": -0.8733994733729898,
+    "sigma2_P": 0.5489451664148193,
+    "sigma2_relevance": 44.03916834666793,
+    "sigma2_veracity": 0.127137773348036,
+    "sigma2_PE": 17.917476673035264,
+    "sigma2_eps": 1.7745130812075667,
+    "rho_P": 0.008523034949877089,
+    "rho_relevance": 0.6837611367153095,
+    "rho_veracity": 0.001973967077207167,
+    "rho_PE": 0.278190408151783,
+    "rho_eps": 0.027551453105823135,
+    "mixedlm_converged": true,
+    "direct_conditions": [
+      "sup",
+      "mis"
+    ],
+    "direct_rho_veracity_from_condition_main_effect": 0.009058123025770201,
+    "direct_sigma2_veracity": 0.1907066600219985,
+    "direct_estimator": "REML MixedLM"
+  },
+  {
+    "subset": "all",
+    "confidence": "conf_seqlik",
+    "n_questions": 1500,
+    "estimator": "REML MixedLM reparameterized",
+    "conditions": [
+      "sup",
+      "mis",
+      "irr"
+    ],
+    "coding": {
+      "relevance_c": {
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333,
+        "irr": -0.6666666666666666
+      },
+      "veracity": {
+        "sup": 0.5,
+        "mis": -0.5,
+        "irr": 0.0
+      }
+    },
+    "beta_relevance": 4.8811324880620095,
+    "beta_veracity": -1.0082080685549402,
+    "sigma2_P": 0.9813371533122713,
+    "sigma2_relevance": 5.294545414669871,
+    "sigma2_veracity": 0.1694139182498805,
+    "sigma2_PE": 4.983895210397679,
+    "sigma2_eps": 0.08203194350363346,
+    "rho_P": 0.0852504637205454,
+    "rho_relevance": 0.4599463601949918,
+    "rho_veracity": 0.014717281459047231,
+    "rho_PE": 0.43295963715113356,
+    "rho_eps": 0.007126257474282143,
+    "mixedlm_converged": true,
+    "direct_conditions": [
+      "sup",
+      "mis"
+    ],
+    "direct_rho_veracity_from_condition_main_effect": 0.03194835371487398,
+    "direct_sigma2_veracity": 0.2541208773745821,
+    "direct_estimator": "REML MixedLM"
+  },
+  {
+    "subset": "closed_known",
+    "confidence": "conf_ptrue",
+    "n_questions": 144,
+    "estimator": "REML MixedLM reparameterized",
+    "conditions": [
+      "sup",
+      "mis",
+      "irr"
+    ],
+    "coding": {
+      "relevance_c": {
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333,
+        "irr": -0.6666666666666666
+      },
+      "veracity": {
+        "sup": 0.5,
+        "mis": -0.5,
+        "irr": 0.0
+      }
+    },
+    "beta_relevance": 14.229213589475917,
+    "beta_veracity": 0.23069470564219213,
+    "sigma2_P": 0.45131617709740834,
+    "sigma2_relevance": 44.993448749983564,
+    "sigma2_veracity": 0.00887000786855628,
+    "sigma2_PE": 24.624588125178338,
+    "sigma2_eps": 0.8721453048147084,
+    "rho_P": 0.006361012458399145,
+    "rho_relevance": 0.6341538428462249,
+    "rho_veracity": 0.00012501707986817243,
+    "rho_PE": 0.3470677981334575,
+    "rho_eps": 0.012292329482050241,
+    "mixedlm_converged": true,
+    "direct_conditions": [
+      "sup",
+      "mis"
+    ],
+    "direct_rho_veracity_from_condition_main_effect": 0.0005186257011577644,
+    "direct_sigma2_veracity": 0.013305011802849306,
+    "direct_estimator": "REML MixedLM"
+  },
+  {
+    "subset": "closed_known",
+    "confidence": "conf_verbalized",
+    "n_questions": 144,
+    "estimator": "REML MixedLM reparameterized",
+    "conditions": [
+      "sup",
+      "mis",
+      "irr"
+    ],
+    "coding": {
+      "relevance_c": {
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333,
+        "irr": -0.6666666666666666
+      },
+      "veracity": {
+        "sup": 0.5,
+        "mis": -0.5,
+        "irr": 0.0
+      }
+    },
+    "beta_relevance": 12.815018443441245,
+    "beta_veracity": 0.9143325720626618,
+    "sigma2_P": 0.5107864356139338,
+    "sigma2_relevance": 36.49437726794205,
+    "sigma2_veracity": 0.13933400872245377,
+    "sigma2_PE": 24.596689157782595,
+    "sigma2_eps": 1.1297548107006685,
+    "rho_P": 0.00812436432410289,
+    "rho_relevance": 0.5804649380511698,
+    "rho_veracity": 0.0022161908983318046,
+    "rho_PE": 0.3912250795077418,
+    "rho_eps": 0.0179694272186537,
+    "mixedlm_converged": true,
+    "direct_conditions": [
+      "sup",
+      "mis"
+    ],
+    "direct_rho_veracity_from_condition_main_effect": 0.011203789249300017,
+    "direct_sigma2_veracity": 0.20900101308189134,
+    "direct_estimator": "REML MixedLM"
+  },
+  {
+    "subset": "closed_known",
+    "confidence": "conf_seqlik",
+    "n_questions": 144,
+    "estimator": "REML MixedLM reparameterized",
+    "conditions": [
+      "sup",
+      "mis",
+      "irr"
+    ],
+    "coding": {
+      "relevance_c": {
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333,
+        "irr": -0.6666666666666666
+      },
+      "veracity": {
+        "sup": 0.5,
+        "mis": -0.5,
+        "irr": 0.0
+      }
+    },
+    "beta_relevance": 4.193706578032228,
+    "beta_veracity": -0.523762242902036,
+    "sigma2_P": 1.0704598757932196,
+    "sigma2_relevance": 3.9082610805846176,
+    "sigma2_veracity": 0.04572114784829523,
+    "sigma2_PE": 5.227967373403416,
+    "sigma2_eps": 0.07699856697520874,
+    "rho_P": 0.10363225764445821,
+    "rho_relevance": 0.37836254156170884,
+    "rho_veracity": 0.004426308618157091,
+    "rho_PE": 0.5061245863100626,
+    "rho_eps": 0.007454305865613134,
+    "mixedlm_converged": true,
+    "direct_conditions": [
+      "sup",
+      "mis"
+    ],
+    "direct_rho_veracity_from_condition_main_effect": 0.008065040775958794,
+    "direct_sigma2_veracity": 0.06858172177229185,
+    "direct_estimator": "REML MixedLM"
+  },
+  {
+    "subset": "sup_reader_gold_pass",
+    "confidence": "conf_ptrue",
+    "n_questions": 1220,
+    "estimator": "REML MixedLM reparameterized",
+    "conditions": [
+      "sup",
+      "mis",
+      "irr"
+    ],
+    "coding": {
+      "relevance_c": {
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333,
+        "irr": -0.6666666666666666
+      },
+      "veracity": {
+        "sup": 0.5,
+        "mis": -0.5,
+        "irr": 0.0
+      }
+    },
+    "beta_relevance": 16.234727946817582,
+    "beta_veracity": 0.03246743831047439,
+    "sigma2_P": 0.2784257621582686,
+    "sigma2_relevance": 58.57030922381774,
+    "sigma2_veracity": 0.00017568909174074337,
+    "sigma2_PE": 13.020522422301777,
+    "sigma2_eps": 0.6225224386808351,
+    "rho_P": 0.003840781506022514,
+    "rho_relevance": 0.807955983401367,
+    "rho_veracity": 2.423566731530272e-06,
+    "rho_PE": 0.1796133422808087,
+    "rho_eps": 0.008587469245070287,
+    "mixedlm_converged": true,
+    "direct_conditions": [
+      "sup",
+      "mis"
+    ],
+    "direct_rho_veracity_from_condition_main_effect": 1.7868567721590495e-05,
+    "direct_sigma2_veracity": 0.00026353363762542163,
+    "direct_estimator": "REML MixedLM"
+  },
+  {
+    "subset": "sup_reader_gold_pass",
+    "confidence": "conf_verbalized",
+    "n_questions": 1220,
+    "estimator": "REML MixedLM reparameterized",
+    "conditions": [
+      "sup",
+      "mis",
+      "irr"
+    ],
+    "coding": {
+      "relevance_c": {
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333,
+        "irr": -0.6666666666666666
+      },
+      "veracity": {
+        "sup": 0.5,
+        "mis": -0.5,
+        "irr": 0.0
+      }
+    },
+    "beta_relevance": 14.67463383679392,
+    "beta_veracity": 0.43136380921566875,
+    "sigma2_P": 0.21395247099117182,
+    "sigma2_relevance": 47.85441738755045,
+    "sigma2_veracity": 0.031012455983508644,
+    "sigma2_PE": 14.219766979656841,
+    "sigma2_eps": 1.6721647820559078,
+    "rho_P": 0.0033434611256189153,
+    "rho_relevance": 0.7478267649034012,
+    "rho_veracity": 0.0004846353982754764,
+    "rho_PE": 0.22221401740110722,
+    "rho_eps": 0.026131121171597237,
+    "mixedlm_converged": true,
+    "direct_conditions": [
+      "sup",
+      "mis"
+    ],
+    "direct_rho_veracity_from_condition_main_effect": 0.003359560091562428,
+    "direct_sigma2_veracity": 0.046518683975254174,
+    "direct_estimator": "REML MixedLM"
+  },
+  {
+    "subset": "sup_reader_gold_pass",
+    "confidence": "conf_seqlik",
+    "n_questions": 1220,
+    "estimator": "REML MixedLM reparameterized",
+    "conditions": [
+      "sup",
+      "mis",
+      "irr"
+    ],
+    "coding": {
+      "relevance_c": {
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333,
+        "irr": -0.6666666666666666
+      },
+      "veracity": {
+        "sup": 0.5,
+        "mis": -0.5,
+        "irr": 0.0
+      }
+    },
+    "beta_relevance": 5.156259230579112,
+    "beta_veracity": -0.411969241826964,
+    "sigma2_P": 1.048692879947148,
+    "sigma2_relevance": 5.908224278429398,
+    "sigma2_veracity": 0.02828644270191392,
+    "sigma2_PE": 4.3932516659431755,
+    "sigma2_eps": 0.07685993542430111,
+    "rho_P": 0.09154640107355853,
+    "rho_relevance": 0.5157626982772046,
+    "rho_veracity": 0.002469285410485624,
+    "rho_PE": 0.3835120717590669,
+    "rho_eps": 0.006709543479684435,
+    "mixedlm_converged": true,
+    "direct_conditions": [
+      "sup",
+      "mis"
+    ],
+    "direct_rho_veracity_from_condition_main_effect": 0.006158864146772273,
+    "direct_sigma2_veracity": 0.04242966405280718,
+    "direct_estimator": "REML MixedLM"
+  },
+  {
+    "subset": "closed_known_and_sup_reader_gold_pass",
+    "confidence": "conf_ptrue",
+    "n_questions": 131,
+    "estimator": "REML MixedLM reparameterized",
+    "conditions": [
+      "sup",
+      "mis",
+      "irr"
+    ],
+    "coding": {
+      "relevance_c": {
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333,
+        "irr": -0.6666666666666666
+      },
+      "veracity": {
+        "sup": 0.5,
+        "mis": -0.5,
+        "irr": 0.0
+      }
+    },
+    "beta_relevance": 14.437242130472885,
+    "beta_veracity": 1.428825510051502,
+    "sigma2_P": 0.6024301614578396,
+    "sigma2_relevance": 46.31865785197805,
+    "sigma2_veracity": 0.34025705636232245,
+    "sigma2_PE": 21.24262409348138,
+    "sigma2_eps": 0.7297085731394791,
+    "rho_P": 0.008701403437664594,
+    "rho_relevance": 0.6690191734190223,
+    "rho_veracity": 0.004914617675775104,
+    "rho_PE": 0.30682501331728473,
+    "rho_eps": 0.01053979215025334,
+    "mixedlm_converged": true,
+    "direct_conditions": [
+      "sup",
+      "mis"
+    ],
+    "direct_rho_veracity_from_condition_main_effect": 0.02528093018690379,
+    "direct_sigma2_veracity": 0.5103855845440015,
+    "direct_estimator": "REML MixedLM"
+  },
+  {
+    "subset": "closed_known_and_sup_reader_gold_pass",
+    "confidence": "conf_verbalized",
+    "n_questions": 131,
+    "estimator": "REML MixedLM reparameterized",
+    "conditions": [
+      "sup",
+      "mis",
+      "irr"
+    ],
+    "coding": {
+      "relevance_c": {
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333,
+        "irr": -0.6666666666666666
+      },
+      "veracity": {
+        "sup": 0.5,
+        "mis": -0.5,
+        "irr": 0.0
+      }
+    },
+    "beta_relevance": 12.749397787357445,
+    "beta_veracity": 1.7765680659354894,
+    "sigma2_P": 0.5185322634126107,
+    "sigma2_relevance": 36.12158754228331,
+    "sigma2_veracity": 0.5260323488169609,
+    "sigma2_PE": 22.69528506840473,
+    "sigma2_eps": 1.2417766133511325,
+    "rho_P": 0.008486170053216219,
+    "rho_relevance": 0.5911569175244067,
+    "rho_veracity": 0.008608914585516063,
+    "rho_PE": 0.3714253906385133,
+    "rho_eps": 0.020322607198347678,
+    "mixedlm_converged": true,
+    "direct_conditions": [
+      "sup",
+      "mis"
+    ],
+    "direct_rho_veracity_from_condition_main_effect": 0.05291967373138162,
+    "direct_sigma2_veracity": 0.789048523226545,
+    "direct_estimator": "REML MixedLM"
+  },
+  {
+    "subset": "closed_known_and_sup_reader_gold_pass",
+    "confidence": "conf_seqlik",
+    "n_questions": 131,
+    "estimator": "REML MixedLM reparameterized",
+    "conditions": [
+      "sup",
+      "mis",
+      "irr"
+    ],
+    "coding": {
+      "relevance_c": {
+        "sup": 0.3333333333333333,
+        "mis": 0.3333333333333333,
+        "irr": -0.6666666666666666
+      },
+      "veracity": {
+        "sup": 0.5,
+        "mis": -0.5,
+        "irr": 0.0
+      }
+    },
+    "beta_relevance": 4.283064919552243,
+    "beta_veracity": -0.12663899735527603,
+    "sigma2_P": 1.1815085909491119,
+    "sigma2_relevance": 4.076587801133124,
+    "sigma2_veracity": 0.002672905941858268,
+    "sigma2_PE": 4.9830517092502795,
+    "sigma2_eps": 0.0744113521104771,
+    "rho_P": 0.11450687964731497,
+    "rho_relevance": 0.3950858692792765,
+    "rho_veracity": 0.0002590468840747855,
+    "rho_PE": 0.4829365666220912,
+    "rho_eps": 0.007211637567242509,
+    "mixedlm_converged": true,
+    "direct_conditions": [
+      "sup",
+      "mis"
+    ],
+    "direct_rho_veracity_from_condition_main_effect": 0.0004904586674311968,
+    "direct_sigma2_veracity": 0.004009358912880951,
+    "direct_estimator": "REML MixedLM"
+  }
+]

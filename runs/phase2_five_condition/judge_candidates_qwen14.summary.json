@@ -1,0 +1,12 @@
+{
+  "n": 1940,
+  "max_per_condition": 500,
+  "per_condition": {
+    "closed": 500,
+    "same_entity_irr": 500,
+    "sup": 500,
+    "mis": 358,
+    "irr": 82
+  },
+  "out": "runs/phase2_five_condition/judge_candidates_qwen14.jsonl"
+}

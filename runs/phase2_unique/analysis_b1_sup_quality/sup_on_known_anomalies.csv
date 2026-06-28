@@ -1,0 +1,145 @@
+question_id,question,gold_answer,wrong_answer,closed_ybar,closed_cbar,closed_answers,sup_ybar,sup_cbar,sup_answers,reader_answer,sup_reader_supports_gold,sup_reader_supports_wrong
+5762643,Who was the screenwriter for Bean?,Rowan Atkinson,,1.0,0.00015828493974763715,Rowan Atkinson,0.0,0.9999999965948339,Robin Driscoll and Richard Curtis,Robin Driscoll and Richard Curtis,0,0
+632612,Who was the director of The Corporation?,Jennifer Abbott,,1.0,0.9999997615802121,Mark Achbar,0.0,0.9999999950523175,Mark Achbar and Jennifer Abbott,Mark Achbar and Jennifer Abbott,1,0
+196737,What genre is General Hospital?,soap opera,,1.0,0.9999999804421227,Soap opera,0.0,0.9999999899882182,Medical drama || medical drama,medical drama,0,0
+4168123,What is Frequency's occupation?,disc jockey,,1.0,5.817056539895477e-05,DJ,0.0,0.9999999847495091,DJ and producer,DJ and music producer,1,0
+3310098,What is Ameer Sultan's occupation?,film director,,0.6,0.01496709371771251,Actor || Military commander and ruler,0.0,0.9999999827704409,"Indian film director, producer, and actor","film director, producer, and actor",1,0
+610662,What is Fritz Goos's occupation?,astronomer,,1.0,0.0005528248589736163,Physicist,0.0,0.999999978300103,Physicist and astronomer || physicist and astronomer,physicist and astronomer,1,0
+1053271,What is Rose Beaudet's occupation?,actor,,0.6,0.0007807971370610254,Actress || Nurse,0.0,0.9999999748541877,Actress and opera singer,actress and opera singer,1,0
+1710487,Who was the screenwriter for The Graduate?,Charles Webb,,1.0,0.014060405635327969,Charles Webb,0.0,0.9999999748541428,Buck Henry and Calder Willingham,Buck Henry and Calder Willingham,1,0
+500365,What genre is Kirby 64: The Crystal Shards?,platform game,,1.0,0.9999036876842526,Platformer,0.0,0.9999999532009067,side-scrolling platform game,side-scrolling platform game,1,0
+1610118,Who was the screenwriter for Rebecca?,Daphne du Maurier,,1.0,4.144387567297193e-08,Daphne du Maurier,0.0,0.9999998360861351,Robert E. Sherwood and Joan Harrison,Robert E. Sherwood and Joan Harrison,1,0
+1134377,What is John Andrew Martin's occupation?,lawyer,,0.8,0.0007635581246297138,Author || Politician,0.0,0.999999814665987,"journalist, attorney, soldier, politician","journalist, attorney, soldier, and politician",1,0
+3039253,What genre is No Doubt?,alternative rock,,0.8,0.9999400763352959,"Alternative rock || Punk rock, alternative rock, pop rock",0.0,0.999999497083752,"No Doubt's genre is characterized as ska punk, reggae fusion, punk rock, pop punk, new wave, alternative rock, and pop rock","ska punk, reggae fusion, punk rock, pop punk, new wave, alternative rock, pop rock",1,0
+4984450,In what country is Berry?,United States of America,,1.0,0.07557223142607893,United States,0.0,0.9999418290671546,Berry is cultivated worldwide,"The context does not specify a single country where ""Berry"" is located; it discusses global cultivation and sales",0,0
+2693771,In what city was Suad Nasr born?,Cairo,,0.8,0.4008109157079122,Beirut || Cairo,0.0,0.6796871238858484,Hebron,The context does not provide information about where Suad Nasr was born,0,0
+2081779,What sport does Kaisa Varis play?,biathlon,,0.8,0.9904018670248069,Biathlon || Cross-country skiing || Ski jumping,0.0,0.4999981931346792,biathlete,None; she is retired,0,0
+2444770,What sport does Sebastián Morquio play?,association football,,1.0,0.05997063738618204,Football,0.0,0.19990884293110595,"Basketball and hockey || Morneau played basketball, hockey, and baseball",Sebastián Morquio is not mentioned in the given context. The passage is about Ryan Morneau. Please provide the correct context or question related to,0,0
+2762597,In what city was Charlie Davis born?,New York City,,0.6,3.246586716699654e-07,Boston || Chicago || New York City,0.0,0.15962347563806292,"The context does not provide information about a Charlie Davis or his birthplace. It only discusses Guy Davis, who was born in New York City || The context does not provide information about a Charlie Davis or his birthplace. It only provides information about Guy Davis, who was born in New York City || The context does not provide information about a Charlie Davis. It describes Guy Davis, who was born in New York City","The question contains an error; Guy Davis, not Charlie Davis, was born in New York City area according to the given context. There's no mention of a",1,0
+119439,Who was the director of Breaking Bad?,John Shiban,,1.0,0.999999694524411,Vince Gilligan,0.0,0.11937321246310187,Gilligan,"Vince Gilligan directed ""Breaking Bad"", including the finale ""Felina"" for which he won the Directors Guild of America Award in 2014",1,0
+3412727,In what country is Kılıçlı Kavlaklı?,Turkey,,1.0,0.9999977350153525,Turkey,0.0,0.07557287686128183,The context does not mention Kılıçlı Kavlaklı,"The given context does not provide information about the location of Kılıçlı Kavlaklı. Therefore, based on the provided context, there is no answer",0,0
+4497762,In what country is Parks?,United States of America,,1.0,0.7773415226074404,United States,0.0,1.6689027785754616e-05,United Kingdom,United Kingdom,0,0
+2390796,In what country is International Islamic Fiqh Academy?,Saudi Arabia,,1.0,8.75443756411049e-08,Saudi Arabia,0.0,6.437767834935644e-09,"The question is about the wrong institution. The context provided is about Australian International Academy, not International Islamic Fiqh Academy. There is no information given about the || The question is about the wrong organization. Australian International Academy is the subject, not International Islamic Fiqh Academy || The question is about the wrong organization. The context provided is about Australian International Academy, not International Islamic Fiqh Academy. There is no informati","The given context does not provide information about the location of the International Islamic Fiqh Academy. Therefore, based on the provided text, the answer cannot be determined",0,0
+5881979,In what country is Tangal-e Behdan?,Iran,,1.0,0.9999962747088251,Iran,0.0,7.235942419431697e-10,"The question is about Tangal-e Behdan but the context provided is about Mashhad Ardehal in Iran. There is no information given about Tangal-e || The question is about Tangal-e Behdan, but the context provided is about Mashhad Ardehal in Iran. There is no information about Tangal-e || The question refers to ""Tangal-e Behdan"" which is not mentioned in the given context. The context is about Mashhad Ardehal in Iran || The question refers to a location named ""Tangal-e Behdan,"" which is not mentioned","The given context does not provide information about Tangal-e Behdan or its location. Therefore, based on the provided text, the answer cannot be determined",0,0
+2381396,What is Melbourne the capital of?,Victoria,,1.0,0.9999991692571248,Victoria,0.2,0.9999999865888951,Victoria || the Australian state of Victoria,Victoria,1,0
+1788846,What genre is Speed?,action film,,1.0,0.9999938607249487,Action,0.2,0.9999999670543286,Action || Action film serial || Action serial,action,1,0
+2147549,What is Jackson the capital of?,Mississippi,,1.0,0.9625823731150474,Mississippi,0.2,0.9999998828857392,Mississippi || the U.S. state of Mississippi,Mississippi,1,0
+3731897,What is Adelaide the capital of?,South Australia,,1.0,0.9999999847495278,South Australia,0.4,0.9999999794176947,South Australia || The state of South Australia,South Australia,1,0
+1961411,In what city was Wayne Horvitz born?,New York City,,0.6,0.42167982731701326,"Brooklyn, New York || New York City",0.4,9.36048839569147e-07,New York City || Not specified,The context does not specify the city where Wayne Horvitz was born,0,0
+2419759,What is Perth the capital of?,Western Australia,,1.0,0.999999887309498,Western Australia,0.8,0.9999999841208893,The Australian state of Western Australia || Western Australia,Western Australia,1,0
+1496387,What sport does Pittsburgh Penguins play?,ice hockey,,1.0,0.9999999847495384,Ice hockey,0.8,0.9855694259381634,Hockey || Ice hockey,Ice hockey,1,0
+1550690,Who was the composer of Imagine?,John Lennon,,1.0,0.9999999895225262,John Lennon,0.8,0.3781242159976498,"John Lennon || John Lennon, with contributions from Yoko Ono",John Lennon,1,0
+3432136,Who was the director of Léon: The Professional?,Luc Besson,,1.0,0.999999963445416,Luc Besson,1.0,0.9999999985811787,Luc Besson,Luc Besson,1,0
+232130,Who was the director of Death Becomes Her?,Robert Zemeckis,,1.0,0.9999997615803391,Robert Zemeckis,1.0,0.9999999983920066,Robert Zemeckis,Robert Zemeckis,1,0
+178789,In what city was György Kárpáti born?,Budapest,,1.0,0.9947882977321184,Budapest,1.0,0.9999999983920047,Budapest,Budapest,1,0
+1610116,Who was the director of Rebecca?,Alfred Hitchcock,,1.0,0.99999999185087,Alfred Hitchcock,1.0,0.999999998392002,Alfred Hitchcock,Alfred Hitchcock,1,0
+1726946,Who was the director of Casino?,Martin Scorsese,,1.0,0.9999999585559276,Martin Scorsese,1.0,0.9999999981810014,Martin Scorsese,Martin Scorsese,1,0
+4780493,In what city was Jun Murai born?,Tokyo,,0.8,0.9936868651220548,Kobe || Tokyo,1.0,0.9999999979336172,Tokyo,Tokyo,1,0
+5436280,In what city was Petros Tabouris born?,Athens,,1.0,0.9706455212548255,Athens,1.0,0.9999999979336154,Athens,Athens,1,0
+5214916,Who was the screenwriter for Serenity?,Joss Whedon,,1.0,0.9999724632045826,Joss Whedon,1.0,0.9999999976571274,Joss Whedon,Joss Whedon,1,0
+5638006,What genre is Quake II?,first-person shooter,,1.0,0.9999999469144256,First-person shooter,1.0,0.9999999974679584,First-person shooter || first-person shooter,first-person shooter,1,0
+2334482,Who is the author of Eldest?,Christopher Paolini,,1.0,0.9999999226997748,Christopher Paolini,1.0,0.9999999973515374,Christopher Paolini,Christopher Paolini,1,0
+6464079,Who was the composer of Les Girls?,Cole Porter,,0.6,0.5640173640542467,Alan Jay Lerner || Cole Porter || Derek贾斯珀·莫里森,1.0,0.999999997351537,Cole Porter,Cole Porter,1,0
+2461657,Who was the director of Lincoln?,Steven Spielberg,,1.0,0.9999999881255623,Steven Spielberg,1.0,0.9999999970022879,Spielberg,Spielberg,1,0
+537684,Who was the director of The Wrestler?,Darren Aronofsky,,0.8,0.7999976979512715,Darren Aronofsky || Derek Cianfrance,1.0,0.9999999965948339,Darren Aronofsky,Darren Aronofsky,1,0
+3226559,Who is the author of The Bicentennial Man?,Isaac Asimov,,1.0,0.9999962747007528,Isaac Asimov,1.0,0.9999999965948279,Isaac Asimov,Isaac Asimov,1,0
+3592879,In what country is Buford High School?,United States of America,,1.0,0.9770393510865787,United States,1.0,0.9999999956344121,United States,United States,1,0
+2755911,Who is the author of Cane?,Jean Toomer,,1.0,0.9999999865539664,Jean Toomer,1.0,0.9999999956344032,Jean Toomer,Jean Toomer,1,0
+2672349,Who was the director of The Butler?,Lee Daniels,,1.0,0.9999997615798559,Lee Daniels,1.0,0.9999999956344021,Lee Daniels,Lee Daniels,1,0
+1298407,Who was the composer of Don Carlos?,Giuseppe Verdi,,1.0,0.9999999124552662,Giuseppe Verdi,1.0,0.9999999956344015,Giuseppe Verdi,Giuseppe Verdi,1,0
+2777708,What genre is Suits?,legal drama,,1.0,0.9999999881255721,Legal drama,1.0,0.9999999952851532,Legal drama || legal drama,legal drama,1,0
+1405876,In what country is Ch'uch'u Apachita?,Bolivia,,1.0,0.05997058854145858,Bolivia,1.0,0.9999999950523331,Bolivia,Bolivia,1,0
+3757863,What genre is Closure?,alternative rock,,1.0,0.7304662585717869,Alternative rock,1.0,0.9999999950523252,Alternative rock,alternative rock,1,0
+3003917,In what country is Iksan?,South Korea,,1.0,0.9999998146662108,South Korea,1.0,0.9999999943829435,South Korea,South Korea,1,0
+21265,In what country is Hernesaari Heliport?,Finland,,1.0,0.999999497083752,Finland,1.0,0.9999999943829385,Finland,Finland,1,0
+1423106,Who was the director of Room?,Lenny Abrahamson,,1.0,0.9999999918508886,Lenny Abrahamson,1.0,0.9999999943829374,Lenny Abrahamson,Lenny Abrahamson,1,0
+3150882,In what city was Antigoni Goni born?,Athens,,1.0,0.029354196531273503,Athens,1.0,0.9999999943829323,Athens,Athens,1,0
+3211017,Who is the author of The Crow?,James O'Barr,,0.8,0.8002999564106681,James O'Barr || James O. Nellis,1.0,0.9999999943829165,James O'Barr,James O'Barr,1,0
+3064330,What is the capital of Sergipe?,Aracaju,,1.0,0.9999999778810068,Aracaju,1.0,0.9999999936553413,Aracaju,Aracaju,1,0
+613942,In what country is Cathedral Peak?,United States of America,,1.0,0.9625823218667577,United States,1.0,0.9999999936553413,United States,United States,1,0
+1223421,What is Vienna the capital of?,Holy Roman Empire,,1.0,0.999999997002293,Austria,1.0,0.9999999936553399,Austria,Austria,1,0
+2665279,What is the capital of South Georgia and the South Sandwich Islands?,King Edward Point,,1.0,0.9706457290617927,King Edward Point,1.0,0.9999999936553359,King Edward Point,King Edward Point,1,0
+2702620,What is Algiers the capital of?,Algeria,,1.0,0.9999999585560134,Algeria,1.0,0.9999999928113317,Algeria,Algeria,1,0
+4907008,Who is the author of The New Science?,Giambattista Vico,,1.0,0.9999999748541493,Giambattista Vico,1.0,0.9999999928113195,Giambattista Vico,Giambattista Vico,1,0
+1323296,What genre is Prestige?,jazz,,1.0,0.9999785426086628,Jazz,1.0,0.9999999918508937,Jazz,jazz,1,0
+604988,What is Manila the capital of?,Commonwealth of the Philippines,,1.0,0.9999999778809976,Philippines,1.0,0.9999999918508922,The Philippines,the Philippines,1,0
+2141673,What is Madrid the capital of?,Spain,,1.0,0.9999999881255721,Spain,1.0,0.9999999918508861,Spain,Spain,1,0
+2350775,Who is the father of Damian Marley?,Bob Marley,,1.0,0.9999962747064373,Bob Marley,1.0,0.9999999918508482,Bob Marley,Bob Marley,1,0
+6439111,In what country is Idalou?,United States of America,,1.0,0.9999970942694173,United States,1.0,0.9999999907449564,United States,United States,1,0
+1281223,What is Riga the capital of?,Latvia,,1.0,0.9999999804421718,Latvia,1.0,0.9999999907449488,Latvia,Latvia,1,0
+1110899,In what country is Naval Nuclear Power Training Command?,United States of America,,1.0,0.9999982416614126,United States,1.0,0.9999999907449455,United States,United States,1,0
+701197,In what country is Francheville Aerodrome?,France,,1.0,0.9999993517976,France,1.0,0.9999999907449455,France,France,1,0
+2898329,What genre is Patience?,comic opera,,0.8,0.8444712782735826,Opera comique || Operetta,1.0,0.999999990744944,Comic opera,comic opera,1,0
+6395669,Who is the author of The Kraken Wakes?,John Wyndham,,1.0,0.999999887309382,John Wyndham,1.0,0.9999999907449328,John Wyndham,John Wyndham,1,0
+4886491,In what country is Belair National Park?,Australia,,0.6,0.5921868299251642,Australia || Jamaica,1.0,0.9999999895225837,Australia,Australia,1,0
+542631,What sport does Logi Geirsson play?,handball,,0.8,0.3021522062145248,Handball || Soccer,1.0,0.9999999895225777,Handball,Handball (Note: He is retired due to injuries),1,0
+4543971,Who is the author of The Voyage Out?,Virginia Woolf,,1.0,0.9999999928113195,Virginia Woolf,1.0,0.9999999895225711,Virginia Woolf,Virginia Woolf,1,0
+44382,What is the capital of Rwanda?,Kigali,,1.0,0.9999999715945534,Kigali,1.0,0.9999999881256059,Kigali,Kigali,1,0
+997848,What genre is Counter-Strike?,tactical shooter,,1.0,0.9999999748541717,First-person shooter,1.0,0.9999999881255931,first-person shooter,first-person shooter,1,0
+2909775,What is Harare the capital of?,Rhodesia,,1.0,0.9999999827704589,Zimbabwe,1.0,0.9999999881255881,Zimbabwe,Zimbabwe,1,0
+542248,What is Tadhg Dall Ó hUiginn's occupation?,poet,,0.6,0.5109757265555691,Harper || Poet,1.0,0.9999999881255854,Poet,poet,1,0
+5679572,Who is the author of Evil Under the Sun?,Agatha Christie,,1.0,0.9999999804421453,Agatha Christie,1.0,0.9999999881255807,Agatha Christie,Agatha Christie,1,0
+425514,Who was the producer of In My Life?,George Martin,,1.0,0.9999999399292216,George Martin,1.0,0.9999999881255475,Sir George Martin,Sir George Martin,1,0
+5575241,What is Richard Howland Hunt's occupation?,architect,,1.0,0.9999938607126688,Architect,1.0,0.9999999865539688,Architect,architect,1,0
+1176799,Who was the composer of Something There?,Alan Menken,,1.0,0.9988340555009476,Alan Menken,1.0,0.9999999865539664,Alan Menken,Alan Menken,1,0
+6366035,What sport does Bob Lanier play?,basketball,,1.0,0.9999977350197098,Basketball,1.0,0.9999999847495488,Basketball,Basketball,1,0
+635851,What is the capital of Kingdom of Bulgaria?,Sofia,,1.0,0.9999999585560134,Sofia,1.0,0.9999999847495438,Sofia,Sofia,1,0
+1580690,What sport does Valeri Zelepukin play?,ice hockey,,0.6,0.4477489881395306,Football || Handball || Ice hockey,1.0,0.9999999847495328,Ice hockey,Ice hockey,1,0
+3440130,In what country is Bank of Korea?,South Korea,,1.0,0.9999997615807876,South Korea,1.0,0.9999999847495328,South Korea,South Korea,1,0
+5017680,In what country is Los Angeles City High School District?,United States of America,,1.0,0.9999962747151934,United States,1.0,0.9999999827704645,United States,United States,1,0
+4552598,Who is the author of In Our Time?,Ernest Hemingway,,0.8,0.7999999908642558,Ernest Hemingway || F. Scott Fitzgerald,1.0,0.9999999827704533,Ernest Hemingway,Ernest Hemingway,1,0
+2413490,What genre is Jimmy Wayne?,country music,,1.0,0.9999938607053938,Country,1.0,0.9999999827704377,Country,Country music,1,0
+3393810,What is Ashlie Walker's occupation?,actor,,1.0,0.0003355803150184654,Actress,1.0,0.9999999804421564,Actress,Actress,1,0
+3526890,What genre is Bloom?,science fiction,,0.8,0.0010466715732331705,Fiction || Science fiction,1.0,0.9999999804421534,Science fiction,science fiction,1,0
+5251883,In what country is Nashotah House?,United States of America,,1.0,0.9999997615806668,United States,1.0,0.9999999778810211,United States,United States,1,0
+1580390,What is the capital of Northwest Territories?,Yellowknife,,1.0,0.9999997615806233,Yellowknife,1.0,0.9999999778810068,Yellowknife,Yellowknife,1,0
+1757186,Who is the father of Julia the Elder?,Augustus,,1.0,3.52847267659182e-05,Augustus,1.0,0.9999999778809652,Augustus,Augustus,1,0
+4942296,What sport does Lek Kcira play?,association football,,0.6,0.36839016737257707,Badminton || Football || Taekwondo,1.0,0.999999974854225,Football,football,1,0
+1260399,What genre is No Direction Home?,documentary film,,1.0,0.9999999585559494,Documentary,1.0,0.9999999748541877,Documentary,documentary,1,0
+508249,In what country is The Goldfinch?,Netherlands,,1.0,2.264972468640959e-06,Netherlands,1.0,0.9999999748541761,Netherlands,Netherlands,1,0
+6013724,What sport does Tommy Greer play?,basketball,,0.8,0.007132945190533206,Baseball || Basketball,1.0,0.9999999715945608,Basketball,Basketball,1,0
+1900346,What genre is 'Til You Cry?,country music,,1.0,0.9933090436936682,Country,1.0,0.9999999715945448,Country,Country,1,0
+5846736,Who is the mother of Otto von Habsburg?,Zita of Bourbon-Parma,,1.0,0.9999997615804386,Zita of Bourbon-Parma,1.0,0.9999999634454662,Zita of Bourbon-Parma,Zita of Bourbon-Parma,1,0
+6293446,Who is the father of Louis X of France?,Philip IV of France,,1.0,0.9999994970826196,Philip IV of France,1.0,0.9999999567863929,Philip IV || Philip IV of France,Philip IV,1,0
+4814012,In what city was Karim Abdel Aziz born?,Cairo,,1.0,0.9999036874428908,Cairo,1.0,0.9999999532008417,Cairo,Cairo,1,0
+5925,What is the capital of The Gambia?,Banjul,,1.0,0.9999999585560134,Banjul,1.0,0.9999999469143848,Banjul,Banjul,1,0
+5411527,What sport does Pedro Ferreira-Mendes play?,association football,,0.8,0.3513374001509029,Football || Golf,1.0,0.9999999399295116,Football,Football,1,0
+316815,Who was the composer of The Last Five Years?,Jason Robert Brown,,1.0,0.9999999778809718,Jason Robert Brown,1.0,0.9999999315475858,Jason Robert Brown,Jason Robert Brown,1,0
+764431,What is the capital of Baldwin County?,Bay Minette,,0.6,0.1999983280916759,Bay Minette || Demopolis || Lanett,1.0,0.999999931547513,Bay Minette,Bay Minette,1,0
+1672868,What is the capital of Aruba?,Oranjestad,,1.0,0.9526596980411381,Oranjestad,1.0,0.9999999124554154,Oranjestad,Oranjestad,1,0
+1782553,What is the capital of Georgia?,Kutaisi,,1.0,0.9999989345657024,Tbilisi,1.0,0.9999999124554154,Tbilisi,Tbilisi,1,0
+6145054,What is the capital of Alaska?,Juneau,,1.0,0.9999977350226501,Juneau,1.0,0.9999999008138506,Juneau,Juneau,1,0
+1586993,In what country is Pindus?,Greece,,1.0,0.9999999124552822,Greece,1.0,0.9999999008137619,Greece,Greece,1,0
+6513495,Who was the screenwriter for Holes?,Louis Sachar,,1.0,0.9770394432076337,Louis Sachar,1.0,0.9999998724080713,Louis Sachar,Louis Sachar and Davis,1,0
+1554686,Who is the father of Koxinga?,Zheng Zhilong,,0.8,0.7999998544217921,"Koxinga was born Zheng Chenggong, and he did not have a recognized father due to his mother's young age and unclear paternity at the || Zheng Zhilong",1.0,0.9999998360863416,Zheng Zhilong,Zheng Zhilong,1,0
+1202714,What is the capital of Kingdom of Italy?,Florence,,1.0,0.9526592935389825,Rome,1.0,0.9999998146655757,Rome,Rome,1,0
+5775745,Who is the father of Ismene?,Oedipus,,1.0,4.529749041029596e-05,Oedipus,1.0,0.9999997895201378,Oedipus,Oedipus,1,0
+743705,What is Eduard Looijenga's occupation?,mathematician,,1.0,0.9999647150587686,Mathematician,1.0,0.9999997895200735,Mathematician,mathematician,1,0
+1527071,What sport does Coventry City F.C. play?,association football,,1.0,0.9999970942743441,Football,1.0,0.9999997615808471,Football,Football,1,0
+2490440,What sport does Houston Dynamo FC play?,association football,,1.0,0.9997969079355224,Soccer,1.0,0.9999997615807876,Soccer,Soccer,1,0
+4983040,Who was the composer of Aladdin – Original Motion Picture Soundtrack?,Alan Menken,,0.8,0.7999970395996858,Alan Menken || Howard Ashman and Alan Menken,1.0,0.9999997615803391,Alan Menken,Alan Menken,1,0
+5855941,What is Susan Kent's occupation?,actor,,1.0,8.486980962010306e-05,Actress,1.0,0.9999996069803151,Actress,actress,1,0
+2218078,Who was the composer of Company?,Stephen Sondheim,,0.6,0.7281214470441404,Andrew Lloyd Webber || Stephen Sondheim,1.0,0.9999996069783992,Stephen Sondheim,Stephen Sondheim,1,0
+189068,Who is the author of GNU Affero General Public License?,Free Software Foundation,,1.0,0.07557285371913068,Free Software Foundation,1.0,0.9999991692571246,Free Software Foundation,Free Software Foundation,1,0
+2122202,In what country is Ferrari?,Italy,,1.0,0.9999999748541761,Italy,1.0,0.9999991692569765,Italy,Italy,1,0
+5027989,In what country is Loyal Legion of Loggers and Lumbermen?,United States of America,,1.0,0.9999547024010278,United States,1.0,0.9999989345638788,United States,United States,1,0
+1941761,What is the capital of Netherlands Antilles?,Willemstad,,1.0,0.0009108823714983401,Willemstad,1.0,0.9999989345631969,Willemstad,Willemstad,1,0
+6295667,What is London the capital of?,Kingdom of Essex,,1.0,0.999999963445396,United Kingdom,1.0,0.9999989345617986,England,England,1,0
+3818525,In what country is Cổ Linh?,Vietnam,,1.0,0.9999898672837337,Vietnam,1.0,0.9999982416595314,Vietnam,Vietnam,1,0
+1055100,What is the capital of Lenawee County?,Adrian,,1.0,0.9988340597919392,Adrian,1.0,0.9999977350213548,Adrian,Adrian,1,0
+1519072,What sport does Mustafa Keçeli play?,association football,,0.8,0.20605898221977997,Football || Handball,1.0,0.999997094274344,Football,"The context provided does not mention anyone named Mustafa Keçeli. It discusses Mustafa Nadhim Mustafa Nadhim Jari, who plays football. Therefore",1,0
+3009780,In what country is Old English?,England,,1.0,0.999978542715634,England,1.0,0.9999938607309546,England,England,1,0
+5322768,What sport does Fernando Baiano play?,association football,,1.0,0.9414662361965955,Football || Soccer,1.0,0.9999898672854121,Association football,Football (Soccer),1,0
+2314595,In what city was Willem van Herp born?,Antwerp,,1.0,0.9990891103025529,Antwerp,1.0,0.9999833108466227,Antwerp,Antwerp,1,0
+2880818,What is the capital of Nyanza Province?,Kisumu,,1.0,0.03741742213885698,Kisumu,1.0,0.9999785427286089,Kisumu,Kisumu,1,0
+234475,Who was the producer of E.T. the Extra-Terrestrial?,Melissa Mathison,,1.0,2.5629931534659027e-06,Steven Spielberg,1.0,0.9999647151155837,Steven Spielberg,Steven Spielberg,1,0
+1050849,What sport does Luan Viana Patrocínio play?,association football,,1.0,0.9770394189777202,Football,1.0,0.9999036879152211,Football,Football (soccer),1,0
+5696015,"In what country is Sarnowo, Chełmno County?",Poland,,1.0,0.9999993517973488,Poland,1.0,0.9975245171286042,Poland,Poland,1,0
+2044236,Who is the father of Emperor Fei of Western Wei?,Emperor Wen of Western Wei,,0.6,0.5633739263388193,Emperor Gao of Northern Zhou || Emperor Gao of Western Wei || Emperor Wen of Western Wei,1.0,0.9947883074084711,Yuan Baoju,Yuan Baoju,1,0
+1026190,What is the capital of Yalutorovsky District?,Yalutorovsk,,0.6,0.19218709617813412,Yalta || Yalutorovsk || Yaroslavl,1.0,0.7304680303164491,Yalutorovsk,"The town of Yalutorovsk serves as the administrative center, but it is not part of the district administratively. Thus, Yalutorovsky District",1,0
+394743,What is Bae Geu-rin's occupation?,actor,,1.0,0.49999886701591506,Actress,1.0,0.02296041146467149,actor,actor,1,0
+4458676,In what country is Khvajeh Soheyl?,Iran,,1.0,0.9999977350220973,Iran,1.0,0.014060398678665573,Iran,Iran,1,0
+5456079,In what city was Piotr Balcerzak born?,Warsaw,,1.0,0.9706456580869066,Warsaw,1.0,0.0001582848416827356,Warsaw,"The context does not provide information about Piotr Balcerzak's birthplace. The provided information is about Piotr Skrzynecki, who",0,0
+6089701,In what country is Valea Pleșii River?,Romania,,1.0,0.999999606980699,Romania,1.0,1.4722177357820405e-05,Romania,"The context does not provide information about the Valea Pleșii River. Therefore, based on the given context, the answer cannot be determined. However, if",0,0
+1402952,What sport does 1991–92 Southend United F.C. season play?,association football,,1.0,0.9999785427317264,Football,1.0,2.3841857852447657e-07,Football,Football,1,0
+5364534,Who was the director of PK?,Rajkumar Hirani,,1.0,0.002475474464566708,Rajkumar Hirani,1.0,6.00703805825573e-08,Rajkumar Hirani,Rajkumar Hirani,1,0

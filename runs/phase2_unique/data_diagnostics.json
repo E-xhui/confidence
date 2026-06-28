@@ -1,0 +1,41 @@
+{
+  "n_requested": 1500,
+  "n_selected": 1500,
+  "targets": {
+    "low": 500,
+    "mid": 500,
+    "high": 500
+  },
+  "bin_counts": {
+    "high": 500,
+    "low": 500,
+    "mid": 500
+  },
+  "rejection_counts": {
+    "low:missing_valid_sup_or_mis": 30,
+    "low:duplicate_question": 27,
+    "mid:duplicate_question": 72,
+    "mid:missing_valid_sup_or_mis": 43,
+    "high:missing_valid_sup_or_mis": 127,
+    "high:duplicate_question": 119
+  },
+  "evidence_policy": "auto",
+  "conflict_file": "conflictQA-popQA-qwen7b.json",
+  "unique_by": "question",
+  "unique_question_count": 1500,
+  "unique_question_id_count": 1500,
+  "evidence_source_counts": {
+    "sup:counter": 1211,
+    "mis:parametric": 1211,
+    "sup:parametric": 289,
+    "mis:counter": 289
+  },
+  "surface_matching": {
+    "len_ratio_mis_over_sup_mean": 1.41646547767709,
+    "len_ratio_mis_over_sup_p10": 0.73,
+    "len_ratio_mis_over_sup_p90": 2.4791527313266455,
+    "entity_diff_mis_minus_sup_mean": -5.214666666666667,
+    "entity_diff_mis_minus_sup_p10": -13.0,
+    "entity_diff_mis_minus_sup_p90": 3.0
+  }
+}

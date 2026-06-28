@@ -1,0 +1,7 @@
+confidence,model_name,mis_source_role,mis_source_group,acc,conf,delta_acc,delta_conf,FG,n_questions
+conf_ptrue,/data/home/yixh/models/Qwen2.5-14B-Instruct,counter,conflicting_counter_memory,0.03321799307958477,0.6284713209352041,-0.4449826989619377,0.12342456985673962,0.5684072688186773,289
+conf_ptrue,/data/home/yixh/models/Qwen2.5-14B-Instruct,parametric,confirming_wrong_prior,0.001486374896779521,0.8778116073797995,-0.05714285714285715,0.5578558705677336,0.6149987277105907,1211
+conf_verbalized,/data/home/yixh/models/Qwen2.5-14B-Instruct,counter,conflicting_counter_memory,0.03321799307958477,0.8858477508650519,-0.4449826989619377,0.08423529411764706,0.5292179930795847,289
+conf_verbalized,/data/home/yixh/models/Qwen2.5-14B-Instruct,parametric,confirming_wrong_prior,0.001486374896779521,0.9658381502890172,-0.05714285714285715,0.2685152766308836,0.3256581337737407,1211
+conf_seqlik,/data/home/yixh/models/Qwen2.5-14B-Instruct,counter,conflicting_counter_memory,0.03321799307958477,0.9699586458827455,-0.4449826989619377,0.13684541271914274,0.5818281116810804,289
+conf_seqlik,/data/home/yixh/models/Qwen2.5-14B-Instruct,parametric,confirming_wrong_prior,0.001486374896779521,0.980179130324225,-0.05714285714285715,0.28494711978657783,0.342089976929435,1211

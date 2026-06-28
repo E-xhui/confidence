@@ -1,0 +1,16 @@
+{
+  "n_rows": 7500,
+  "n_questions": 1500,
+  "condition_counts": {
+    "closed": 1500,
+    "irr": 1500,
+    "same_entity_irr": 1500,
+    "sup": 1500,
+    "mis": 1500
+  },
+  "sources": {
+    "phase2": "runs/phase2_unique/contexts_phase2.jsonl",
+    "irr": "runs/phase2_unique_irr/contexts_phase2.jsonl",
+    "same_entity_irr": "runs/phase2_same_entity_irr/contexts_phase2.jsonl"
+  }
+}

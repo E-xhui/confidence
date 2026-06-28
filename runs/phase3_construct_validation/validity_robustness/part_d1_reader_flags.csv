@@ -1,0 +1,5 @@
+flag,n_questions,rate,count,reader_is_automated_audit
+sup_reader_supports_gold,1500,0.8133333333333334,1220,True
+mis_reader_supports_wrong,1500,0.906,1359,True
+mis_reader_supports_gold,1500,0.01,15,True
+clean_intersection,1500,0.738,1107,True

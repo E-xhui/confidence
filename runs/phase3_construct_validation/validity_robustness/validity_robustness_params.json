@@ -1,0 +1,7 @@
+{
+  "seed": 20260623,
+  "paired_bootstrap_b": 1000,
+  "rho_bootstrap_b": 300,
+  "unit": "question_condition_cell_mean",
+  "part": "A1_A2_A6"
+}

@@ -1,0 +1,11 @@
+{
+  "predictions": "runs/phase2_unique_with_irr/predictions_qwen_full.jsonl",
+  "n_rows": 30000,
+  "n_questions": 1500,
+  "confidence_columns": [
+    "conf_ptrue",
+    "conf_verbalized",
+    "conf_seqlik"
+  ],
+  "primary_confidence": "conf_ptrue"
+}

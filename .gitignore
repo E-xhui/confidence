@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+
+# IDE / tool config
+.claude/
+
+# Phase 4 (probe experiments, deferred)
+runs/phase4_probe/
+scripts/phase4_probe_controls.py
+scripts/extract_hidden_states_phase4.py
+scripts/analyze_phase4_probe.py
+scripts/run_hidden_extract_slurm.sbatch
+phase4_probe_qwen7_summary.md
+docs/summaries/phase4_probe_controls_t1.md
+
+# Intermediate shard files (merged into *_full.jsonl)
+*_shard_*.jsonl
+
+# Binary documents (DOCX contain metadata)
+*.docx
+
+# Logs (keep Slurm logs in runs/*/logs/ for provenance)
+
+# Internal docs (not for public review)
+spec.md
+progress.md
+docs/

@@ -1,0 +1,5 @@
+model_name,irr_behavior,n_samples,acc,sample_rate,n_questions,question_rate
+/data/home/yixh/models/Qwen2.5-14B-Instruct,abstain,23,0.0,0.0030666666666666668,2,0.0013333333333333333
+/data/home/yixh/models/Qwen2.5-14B-Instruct,answer_from_irrelevant_context,141,0.0,0.0188,27,0.018
+/data/home/yixh/models/Qwen2.5-14B-Instruct,fallback_to_prior_or_gold,467,0.6509635974304069,0.062266666666666665,94,0.06266666666666666
+/data/home/yixh/models/Qwen2.5-14B-Instruct,other_or_hallucinated,6869,0.0,0.9158666666666667,1377,0.918

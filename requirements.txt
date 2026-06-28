@@ -1,0 +1,12 @@
+accelerate>=0.33
+datasets>=4.0
+huggingface_hub>=0.24
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+scipy>=1.11
+statsmodels>=0.14
+torch>=2.2
+transformers>=4.44
+sentencepiece>=0.2
+

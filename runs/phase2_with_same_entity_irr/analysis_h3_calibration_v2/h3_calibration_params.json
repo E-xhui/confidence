@@ -1,0 +1,203 @@
+{
+  "seed": 20260620,
+  "train_frac": 0.5,
+  "train_questions": 750,
+  "eval_questions": 750,
+  "source_confidence_columns": [
+    "conf_ptrue",
+    "conf_verbalized",
+    "conf_seqlik"
+  ],
+  "conf_ptrue": {
+    "identity": {},
+    "temperature_scaling": {
+      "temperature": 28.81268666883522,
+      "success": true
+    },
+    "platt_logistic": {
+      "coef": 0.1022478765417659,
+      "intercept": -2.025289939946304
+    },
+    "isotonic_relabel": {
+      "threshold_count": 22
+    },
+    "condition_oracle_logistic": {
+      "feature_mode": "condition",
+      "feature_names": [
+        "logit_conf",
+        "is_irr",
+        "is_same_entity_irr",
+        "is_sup",
+        "is_mis"
+      ],
+      "coef": [
+        0.09092534395458299,
+        -0.7557955512144274,
+        0.5102459091405581,
+        2.2907029464418835,
+        -3.8073930606191984
+      ],
+      "intercept": -2.414549108035457
+    },
+    "staged_oracle_logistic": {
+      "feature_mode": "staged_codes",
+      "feature_names": [
+        "logit_conf",
+        "topicality_code",
+        "answer_support_code",
+        "veracity_code"
+      ],
+      "coef": [
+        0.09074550873673953,
+        0.39851560832777394,
+        -1.0065005950340775,
+        5.538488823803617
+      ],
+      "intercept": -2.6374321974057486
+    },
+    "condition_only_oracle": {
+      "feature_mode": "condition_only",
+      "feature_names": [
+        "is_irr",
+        "is_same_entity_irr",
+        "is_sup",
+        "is_mis"
+      ],
+      "coef": [
+        -1.8228115477924833,
+        0.47458344964725035,
+        2.9955425106521725,
+        -2.8408659483807797
+      ],
+      "intercept": -2.252383684256864
+    }
+  },
+  "conf_verbalized": {
+    "identity": {},
+    "temperature_scaling": {
+      "temperature": 24.976642127379726,
+      "success": true
+    },
+    "platt_logistic": {
+      "coef": 0.124439634072757,
+      "intercept": -2.0837338045313225
+    },
+    "isotonic_relabel": {
+      "threshold_count": 8
+    },
+    "condition_oracle_logistic": {
+      "feature_mode": "condition",
+      "feature_names": [
+        "logit_conf",
+        "is_irr",
+        "is_same_entity_irr",
+        "is_sup",
+        "is_mis"
+      ],
+      "coef": [
+        0.131675123881282,
+        -0.7766167101537249,
+        0.5752855307885382,
+        2.2853226002672153,
+        -3.9965999094860525
+      ],
+      "intercept": -2.56200830669194
+    },
+    "staged_oracle_logistic": {
+      "feature_mode": "staged_codes",
+      "feature_names": [
+        "logit_conf",
+        "topicality_code",
+        "answer_support_code",
+        "veracity_code"
+      ],
+      "coef": [
+        0.1282842591286128,
+        0.37726035208200354,
+        -1.1368770766394938,
+        5.687814613008323
+      ],
+      "intercept": -2.7860978156377083
+    },
+    "condition_only_oracle": {
+      "feature_mode": "condition_only",
+      "feature_names": [
+        "is_irr",
+        "is_same_entity_irr",
+        "is_sup",
+        "is_mis"
+      ],
+      "coef": [
+        -1.8228115477924833,
+        0.47458344964725035,
+        2.9955425106521725,
+        -2.8408659483807797
+      ],
+      "intercept": -2.252383684256864
+    }
+  },
+  "conf_seqlik": {
+    "identity": {},
+    "temperature_scaling": {
+      "temperature": 54.59585527850924,
+      "success": true
+    },
+    "platt_logistic": {
+      "coef": 0.18945619761895874,
+      "intercept": -2.515884139913287
+    },
+    "isotonic_relabel": {
+      "threshold_count": 44
+    },
+    "condition_oracle_logistic": {
+      "feature_mode": "condition",
+      "feature_names": [
+        "logit_conf",
+        "is_irr",
+        "is_same_entity_irr",
+        "is_sup",
+        "is_mis"
+      ],
+      "coef": [
+        0.2972437763680018,
+        -2.2514179090781528,
+        -0.05819013898417033,
+        1.472783114374643,
+        -5.357509742379953
+      ],
+      "intercept": -2.7203598566174843
+    },
+    "staged_oracle_logistic": {
+      "feature_mode": "staged_codes",
+      "feature_names": [
+        "logit_conf",
+        "topicality_code",
+        "answer_support_code",
+        "veracity_code"
+      ],
+      "coef": [
+        0.24556179576157605,
+        0.9430278770252266,
+        -1.1529522986939211,
+        5.535519606892042
+      ],
+      "intercept": -3.4794163020877185
+    },
+    "condition_only_oracle": {
+      "feature_mode": "condition_only",
+      "feature_names": [
+        "is_irr",
+        "is_same_entity_irr",
+        "is_sup",
+        "is_mis"
+      ],
+      "coef": [
+        -1.8228115477924833,
+        0.47458344964725035,
+        2.9955425106521725,
+        -2.8408659483807797
+      ],
+      "intercept": -2.252383684256864
+    }
+  }
+}

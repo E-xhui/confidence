@@ -1,0 +1,16 @@
+confidence,model_name,contrast,delta_conf,delta_acc,n_questions
+conf_ptrue,/data/home/yixh/models/Qwen2.5-14B-Instruct,same_entity_irr_minus_irr,-0.17077276049064946,0.136,1500
+conf_ptrue,/data/home/yixh/models/Qwen2.5-14B-Instruct,same_entity_irr_minus_closed,0.27433806421223533,0.037066666666666664,1500
+conf_ptrue,/data/home/yixh/models/Qwen2.5-14B-Instruct,same_entity_irr_minus_sup,-0.22535278709783635,-0.4769333333333334,1500
+conf_ptrue,/data/home/yixh/models/Qwen2.5-14B-Instruct,same_entity_irr_minus_mis,-0.19981737575184677,0.16893333333333332,1500
+conf_ptrue,/data/home/yixh/models/Qwen2.5-14B-Instruct,mis_minus_sup,-0.025535411345989578,-0.6458666666666666,1500
+conf_verbalized,/data/home/yixh/models/Qwen2.5-14B-Instruct,same_entity_irr_minus_irr,0.4094933333333333,0.136,1500
+conf_verbalized,/data/home/yixh/models/Qwen2.5-14B-Instruct,same_entity_irr_minus_closed,0.009143999999999998,0.037066666666666664,1500
+conf_verbalized,/data/home/yixh/models/Qwen2.5-14B-Instruct,same_entity_irr_minus_sup,-0.19544666666666669,-0.4769333333333334,1500
+conf_verbalized,/data/home/yixh/models/Qwen2.5-14B-Instruct,same_entity_irr_minus_mis,-0.22386666666666663,0.16893333333333332,1500
+conf_verbalized,/data/home/yixh/models/Qwen2.5-14B-Instruct,mis_minus_sup,0.02842,-0.6458666666666666,1500
+conf_seqlik,/data/home/yixh/models/Qwen2.5-14B-Instruct,same_entity_irr_minus_irr,0.00918653804457801,0.136,1500
+conf_seqlik,/data/home/yixh/models/Qwen2.5-14B-Instruct,same_entity_irr_minus_closed,0.11866376615133424,0.037066666666666664,1500
+conf_seqlik,/data/home/yixh/models/Qwen2.5-14B-Instruct,same_entity_irr_minus_sup,-0.11827030313952812,-0.4769333333333334,1500
+conf_seqlik,/data/home/yixh/models/Qwen2.5-14B-Instruct,same_entity_irr_minus_mis,-0.13774909140691777,0.16893333333333332,1500
+conf_seqlik,/data/home/yixh/models/Qwen2.5-14B-Instruct,mis_minus_sup,0.019478788267389666,-0.6458666666666666,1500

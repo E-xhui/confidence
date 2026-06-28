@@ -1,0 +1,35 @@
+{
+  "n_requested": 1500,
+  "n_selected": 1500,
+  "targets": {
+    "low": 500,
+    "mid": 500,
+    "high": 500
+  },
+  "bin_counts": {
+    "high": 500,
+    "low": 500,
+    "mid": 500
+  },
+  "rejection_counts": {
+    "low:missing_valid_sup_or_mis": 28,
+    "mid:missing_valid_sup_or_mis": 40,
+    "high:missing_valid_sup_or_mis": 107
+  },
+  "evidence_policy": "auto",
+  "conflict_file": "conflictQA-popQA-qwen7b.json",
+  "evidence_source_counts": {
+    "sup:counter": 1220,
+    "mis:parametric": 1220,
+    "sup:parametric": 280,
+    "mis:counter": 280
+  },
+  "surface_matching": {
+    "len_ratio_mis_over_sup_mean": 1.4264614067291739,
+    "len_ratio_mis_over_sup_p10": 0.73,
+    "len_ratio_mis_over_sup_p90": 2.4884615384615403,
+    "entity_diff_mis_minus_sup_mean": -5.276666666666666,
+    "entity_diff_mis_minus_sup_p10": -13.0,
+    "entity_diff_mis_minus_sup_p90": 3.0
+  }
+}

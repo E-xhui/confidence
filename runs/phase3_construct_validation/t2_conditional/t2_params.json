@@ -1,0 +1,838 @@
+{
+  "predictions": "runs/phase2_with_same_entity_irr/predictions_qwen_full.jsonl",
+  "source_confidence": "conf_ptrue",
+  "n_splits": 5,
+  "seed": 20260622,
+  "feature_groups": {
+    "conf_only": [
+      "conf_ptrue",
+      "conf_verbalized",
+      "conf_seqlik",
+      "mean_answer_logprob"
+    ],
+    "conf_plus_prior": [
+      "conf_ptrue",
+      "conf_verbalized",
+      "conf_seqlik",
+      "mean_answer_logprob",
+      "popularity_raw",
+      "closed_book_correct_rate"
+    ],
+    "conf_plus_surface": [
+      "conf_ptrue",
+      "conf_verbalized",
+      "conf_seqlik",
+      "mean_answer_logprob",
+      "ctx_len_tokens",
+      "ctx_entity_count"
+    ],
+    "conf_plus_selfcons": [
+      "conf_ptrue",
+      "conf_verbalized",
+      "conf_seqlik",
+      "mean_answer_logprob",
+      "answer_agreement",
+      "conf_ptrue_group_mean",
+      "conf_ptrue_group_var",
+      "conf_verbalized_group_mean",
+      "conf_verbalized_group_var",
+      "conf_seqlik_group_mean",
+      "conf_seqlik_group_var"
+    ],
+    "all_no_ctx_surface": [
+      "conf_ptrue",
+      "conf_verbalized",
+      "conf_seqlik",
+      "mean_answer_logprob",
+      "popularity_raw",
+      "closed_book_correct_rate",
+      "answer_agreement",
+      "conf_ptrue_group_mean",
+      "conf_ptrue_group_var",
+      "conf_verbalized_group_mean",
+      "conf_verbalized_group_var",
+      "conf_seqlik_group_mean",
+      "conf_seqlik_group_var"
+    ],
+    "all_no_selfcons": [
+      "conf_ptrue",
+      "conf_verbalized",
+      "conf_seqlik",
+      "mean_answer_logprob",
+      "popularity_raw",
+      "closed_book_correct_rate",
+      "ctx_len_tokens",
+      "ctx_entity_count"
+    ],
+    "all": [
+      "conf_ptrue",
+      "conf_verbalized",
+      "conf_seqlik",
+      "mean_answer_logprob",
+      "popularity_raw",
+      "closed_book_correct_rate",
+      "ctx_len_tokens",
+      "ctx_entity_count",
+      "answer_agreement",
+      "conf_ptrue_group_mean",
+      "conf_ptrue_group_var",
+      "conf_verbalized_group_mean",
+      "conf_verbalized_group_var",
+      "conf_seqlik_group_mean",
+      "conf_seqlik_group_var"
+    ]
+  },
+  "forbidden_features": [
+    "condition",
+    "gold_answer",
+    "wrong_answer",
+    "correct"
+  ],
+  "temperature_scaling": [
+    {
+      "fold": 0,
+      "temperature": 27.30410128345421,
+      "success": true
+    },
+    {
+      "fold": 1,
+      "temperature": 27.823383010207014,
+      "success": true
+    },
+    {
+      "fold": 2,
+      "temperature": 27.675420720522943,
+      "success": true
+    },
+    {
+      "fold": 3,
+      "temperature": 28.450293606452114,
+      "success": true
+    },
+    {
+      "fold": 4,
+      "temperature": 27.610238117001334,
+      "success": true
+    }
+  ],
+  "platt_logistic": [
+    {
+      "fold": 0,
+      "coef": 0.10308018752390546,
+      "intercept": -2.0169632956752586
+    },
+    {
+      "fold": 1,
+      "coef": 0.10355107260983067,
+      "intercept": -2.057830018856168
+    },
+    {
+      "fold": 2,
+      "coef": 0.10439990539702464,
+      "intercept": -2.031911323088993
+    },
+    {
+      "fold": 3,
+      "coef": 0.10017054263793804,
+      "intercept": -1.9902572715886164
+    },
+    {
+      "fold": 4,
+      "coef": 0.10188294548228585,
+      "intercept": -2.004105071037315
+    }
+  ],
+  "isotonic_relabel": [
+    {
+      "fold": 0,
+      "threshold_count": 20
+    },
+    {
+      "fold": 1,
+      "threshold_count": 18
+    },
+    {
+      "fold": 2,
+      "threshold_count": 22
+    },
+    {
+      "fold": 3,
+      "threshold_count": 16
+    },
+    {
+      "fold": 4,
+      "threshold_count": 22
+    }
+  ],
+  "conditional_gbm_all": [
+    {
+      "fold": 0,
+      "features": [
+        "conf_ptrue",
+        "conf_verbalized",
+        "conf_seqlik",
+        "mean_answer_logprob",
+        "popularity_raw",
+        "closed_book_correct_rate",
+        "ctx_len_tokens",
+        "ctx_entity_count",
+        "answer_agreement",
+        "conf_ptrue_group_mean",
+        "conf_ptrue_group_var",
+        "conf_verbalized_group_mean",
+        "conf_verbalized_group_var",
+        "conf_seqlik_group_mean",
+        "conf_seqlik_group_var"
+      ]
+    },
+    {
+      "fold": 1,
+      "features": [
+        "conf_ptrue",
+        "conf_verbalized",
+        "conf_seqlik",
+        "mean_answer_logprob",
+        "popularity_raw",
+        "closed_book_correct_rate",
+        "ctx_len_tokens",
+        "ctx_entity_count",
+        "answer_agreement",
+        "conf_ptrue_group_mean",
+        "conf_ptrue_group_var",
+        "conf_verbalized_group_mean",
+        "conf_verbalized_group_var",
+        "conf_seqlik_group_mean",
+        "conf_seqlik_group_var"
+      ]
+    },
+    {
+      "fold": 2,
+      "features": [
+        "conf_ptrue",
+        "conf_verbalized",
+        "conf_seqlik",
+        "mean_answer_logprob",
+        "popularity_raw",
+        "closed_book_correct_rate",
+        "ctx_len_tokens",
+        "ctx_entity_count",
+        "answer_agreement",
+        "conf_ptrue_group_mean",
+        "conf_ptrue_group_var",
+        "conf_verbalized_group_mean",
+        "conf_verbalized_group_var",
+        "conf_seqlik_group_mean",
+        "conf_seqlik_group_var"
+      ]
+    },
+    {
+      "fold": 3,
+      "features": [
+        "conf_ptrue",
+        "conf_verbalized",
+        "conf_seqlik",
+        "mean_answer_logprob",
+        "popularity_raw",
+        "closed_book_correct_rate",
+        "ctx_len_tokens",
+        "ctx_entity_count",
+        "answer_agreement",
+        "conf_ptrue_group_mean",
+        "conf_ptrue_group_var",
+        "conf_verbalized_group_mean",
+        "conf_verbalized_group_var",
+        "conf_seqlik_group_mean",
+        "conf_seqlik_group_var"
+      ]
+    },
+    {
+      "fold": 4,
+      "features": [
+        "conf_ptrue",
+        "conf_verbalized",
+        "conf_seqlik",
+        "mean_answer_logprob",
+        "popularity_raw",
+        "closed_book_correct_rate",
+        "ctx_len_tokens",
+        "ctx_entity_count",
+        "answer_agreement",
+        "conf_ptrue_group_mean",
+        "conf_ptrue_group_var",
+        "conf_verbalized_group_mean",
+        "conf_verbalized_group_var",
+        "conf_seqlik_group_mean",
+        "conf_seqlik_group_var"
+      ]
+    }
+  ],
+  "conditional_gbm_all_no_ctx_surface": [
+    {
+      "fold": 0,
+      "features": [
+        "conf_ptrue",
+        "conf_verbalized",
+        "conf_seqlik",
+        "mean_answer_logprob",
+        "popularity_raw",
+        "closed_book_correct_rate",
+        "answer_agreement",
+        "conf_ptrue_group_mean",
+        "conf_ptrue_group_var",
+        "conf_verbalized_group_mean",
+        "conf_verbalized_group_var",
+        "conf_seqlik_group_mean",
+        "conf_seqlik_group_var"
+      ]
+    },
+    {
+      "fold": 1,
+      "features": [
+        "conf_ptrue",
+        "conf_verbalized",
+        "conf_seqlik",
+        "mean_answer_logprob",
+        "popularity_raw",
+        "closed_book_correct_rate",
+        "answer_agreement",
+        "conf_ptrue_group_mean",
+        "conf_ptrue_group_var",
+        "conf_verbalized_group_mean",
+        "conf_verbalized_group_var",
+        "conf_seqlik_group_mean",
+        "conf_seqlik_group_var"
+      ]
+    },
+    {
+      "fold": 2,
+      "features": [
+        "conf_ptrue",
+        "conf_verbalized",
+        "conf_seqlik",
+        "mean_answer_logprob",
+        "popularity_raw",
+        "closed_book_correct_rate",
+        "answer_agreement",
+        "conf_ptrue_group_mean",
+        "conf_ptrue_group_var",
+        "conf_verbalized_group_mean",
+        "conf_verbalized_group_var",
+        "conf_seqlik_group_mean",
+        "conf_seqlik_group_var"
+      ]
+    },
+    {
+      "fold": 3,
+      "features": [
+        "conf_ptrue",
+        "conf_verbalized",
+        "conf_seqlik",
+        "mean_answer_logprob",
+        "popularity_raw",
+        "closed_book_correct_rate",
+        "answer_agreement",
+        "conf_ptrue_group_mean",
+        "conf_ptrue_group_var",
+        "conf_verbalized_group_mean",
+        "conf_verbalized_group_var",
+        "conf_seqlik_group_mean",
+        "conf_seqlik_group_var"
+      ]
+    },
+    {
+      "fold": 4,
+      "features": [
+        "conf_ptrue",
+        "conf_verbalized",
+        "conf_seqlik",
+        "mean_answer_logprob",
+        "popularity_raw",
+        "closed_book_correct_rate",
+        "answer_agreement",
+        "conf_ptrue_group_mean",
+        "conf_ptrue_group_var",
+        "conf_verbalized_group_mean",
+        "conf_verbalized_group_var",
+        "conf_seqlik_group_mean",
+        "conf_seqlik_group_var"
+      ]
+    }
+  ],
+  "d1_matching": {
+    "n_bins": 10,
+    "matched_supmis_rows": 3390,
+    "matched_questions": 982,
+    "cells_used": 77,
+    "condition_counts": {
+      "closed": 4910,
+      "irr": 4910,
+      "same_entity_irr": 4910,
+      "mis": 1695,
+      "sup": 1695
+    },
+    "cell_rows": [
+      {
+        "cell": "9::8",
+        "n_per_condition": 20,
+        "sup_pool": 20,
+        "mis_pool": 70
+      },
+      {
+        "cell": "1::2",
+        "n_per_condition": 20,
+        "sup_pool": 20,
+        "mis_pool": 160
+      },
+      {
+        "cell": "4::4",
+        "n_per_condition": 40,
+        "sup_pool": 90,
+        "mis_pool": 40
+      },
+      {
+        "cell": "2::6",
+        "n_per_condition": 25,
+        "sup_pool": 25,
+        "mis_pool": 120
+      },
+      {
+        "cell": "0::3",
+        "n_per_condition": 20,
+        "sup_pool": 165,
+        "mis_pool": 20
+      },
+      {
+        "cell": "8::0",
+        "n_per_condition": 5,
+        "sup_pool": 5,
+        "mis_pool": 150
+      },
+      {
+        "cell": "7::6",
+        "n_per_condition": 45,
+        "sup_pool": 120,
+        "mis_pool": 45
+      },
+      {
+        "cell": "2::1",
+        "n_per_condition": 10,
+        "sup_pool": 10,
+        "mis_pool": 225
+      },
+      {
+        "cell": "0::4",
+        "n_per_condition": 5,
+        "sup_pool": 120,
+        "mis_pool": 5
+      },
+      {
+        "cell": "6::2",
+        "n_per_condition": 40,
+        "sup_pool": 45,
+        "mis_pool": 40
+      },
+      {
+        "cell": "0::5",
+        "n_per_condition": 15,
+        "sup_pool": 95,
+        "mis_pool": 15
+      },
+      {
+        "cell": "5::8",
+        "n_per_condition": 5,
+        "sup_pool": 310,
+        "mis_pool": 5
+      },
+      {
+        "cell": "1::0",
+        "n_per_condition": 5,
+        "sup_pool": 5,
+        "mis_pool": 195
+      },
+      {
+        "cell": "6::4",
+        "n_per_condition": 5,
+        "sup_pool": 70,
+        "mis_pool": 5
+      },
+      {
+        "cell": "7::5",
+        "n_per_condition": 65,
+        "sup_pool": 80,
+        "mis_pool": 65
+      },
+      {
+        "cell": "2::8",
+        "n_per_condition": 25,
+        "sup_pool": 25,
+        "mis_pool": 25
+      },
+      {
+        "cell": "6::0",
+        "n_per_condition": 5,
+        "sup_pool": 5,
+        "mis_pool": 45
+      },
+      {
+        "cell": "4::7",
+        "n_per_condition": 5,
+        "sup_pool": 215,
+        "mis_pool": 5
+      },
+      {
+        "cell": "2::4",
+        "n_per_condition": 10,
+        "sup_pool": 10,
+        "mis_pool": 170
+      },
+      {
+        "cell": "5::9",
+        "n_per_condition": 10,
+        "sup_pool": 360,
+        "mis_pool": 10
+      },
+      {
+        "cell": "2::2",
+        "n_per_condition": 10,
+        "sup_pool": 10,
+        "mis_pool": 225
+      },
+      {
+        "cell": "9::9",
+        "n_per_condition": 20,
+        "sup_pool": 160,
+        "mis_pool": 20
+      },
+      {
+        "cell": "2::3",
+        "n_per_condition": 10,
+        "sup_pool": 10,
+        "mis_pool": 170
+      },
+      {
+        "cell": "7::9",
+        "n_per_condition": 5,
+        "sup_pool": 210,
+        "mis_pool": 5
+      },
+      {
+        "cell": "9::6",
+        "n_per_condition": 20,
+        "sup_pool": 20,
+        "mis_pool": 150
+      },
+      {
+        "cell": "7::7",
+        "n_per_condition": 30,
+        "sup_pool": 200,
+        "mis_pool": 30
+      },
+      {
+        "cell": "1::6",
+        "n_per_condition": 40,
+        "sup_pool": 110,
+        "mis_pool": 40
+      },
+      {
+        "cell": "1::5",
+        "n_per_condition": 60,
+        "sup_pool": 60,
+        "mis_pool": 105
+      },
+      {
+        "cell": "7::2",
+        "n_per_condition": 15,
+        "sup_pool": 15,
+        "mis_pool": 70
+      },
+      {
+        "cell": "3::6",
+        "n_per_condition": 65,
+        "sup_pool": 80,
+        "mis_pool": 65
+      },
+      {
+        "cell": "5::7",
+        "n_per_condition": 5,
+        "sup_pool": 195,
+        "mis_pool": 5
+      },
+      {
+        "cell": "2::5",
+        "n_per_condition": 5,
+        "sup_pool": 5,
+        "mis_pool": 110
+      },
+      {
+        "cell": "7::4",
+        "n_per_condition": 55,
+        "sup_pool": 55,
+        "mis_pool": 85
+      },
+      {
+        "cell": "1::1",
+        "n_per_condition": 10,
+        "sup_pool": 10,
+        "mis_pool": 240
+      },
+      {
+        "cell": "6::6",
+        "n_per_condition": 15,
+        "sup_pool": 160,
+        "mis_pool": 15
+      },
+      {
+        "cell": "9::5",
+        "n_per_condition": 10,
+        "sup_pool": 10,
+        "mis_pool": 185
+      },
+      {
+        "cell": "4::6",
+        "n_per_condition": 20,
+        "sup_pool": 195,
+        "mis_pool": 20
+      },
+      {
+        "cell": "1::4",
+        "n_per_condition": 30,
+        "sup_pool": 30,
+        "mis_pool": 130
+      },
+      {
+        "cell": "3::1",
+        "n_per_condition": 10,
+        "sup_pool": 10,
+        "mis_pool": 150
+      },
+      {
+        "cell": "3::3",
+        "n_per_condition": 10,
+        "sup_pool": 10,
+        "mis_pool": 205
+      },
+      {
+        "cell": "5::4",
+        "n_per_condition": 50,
+        "sup_pool": 55,
+        "mis_pool": 50
+      },
+      {
+        "cell": "6::7",
+        "n_per_condition": 15,
+        "sup_pool": 250,
+        "mis_pool": 15
+      },
+      {
+        "cell": "8::8",
+        "n_per_condition": 20,
+        "sup_pool": 60,
+        "mis_pool": 20
+      },
+      {
+        "cell": "0::1",
+        "n_per_condition": 35,
+        "sup_pool": 225,
+        "mis_pool": 35
+      },
+      {
+        "cell": "5::2",
+        "n_per_condition": 35,
+        "sup_pool": 45,
+        "mis_pool": 35
+      },
+      {
+        "cell": "3::2",
+        "n_per_condition": 5,
+        "sup_pool": 5,
+        "mis_pool": 205
+      },
+      {
+        "cell": "5::6",
+        "n_per_condition": 20,
+        "sup_pool": 145,
+        "mis_pool": 20
+      },
+      {
+        "cell": "4::3",
+        "n_per_condition": 30,
+        "sup_pool": 30,
+        "mis_pool": 65
+      },
+      {
+        "cell": "2::7",
+        "n_per_condition": 45,
+        "sup_pool": 45,
+        "mis_pool": 70
+      },
+      {
+        "cell": "8::6",
+        "n_per_condition": 20,
+        "sup_pool": 20,
+        "mis_pool": 85
+      },
+      {
+        "cell": "7::8",
+        "n_per_condition": 15,
+        "sup_pool": 245,
+        "mis_pool": 15
+      },
+      {
+        "cell": "9::7",
+        "n_per_condition": 5,
+        "sup_pool": 5,
+        "mis_pool": 140
+      },
+      {
+        "cell": "3::5",
+        "n_per_condition": 55,
+        "sup_pool": 55,
+        "mis_pool": 100
+      },
+      {
+        "cell": "8::2",
+        "n_per_condition": 5,
+        "sup_pool": 5,
+        "mis_pool": 205
+      },
+      {
+        "cell": "0::2",
+        "n_per_condition": 25,
+        "sup_pool": 200,
+        "mis_pool": 25
+      },
+      {
+        "cell": "1::3",
+        "n_per_condition": 40,
+        "sup_pool": 40,
+        "mis_pool": 165
+      },
+      {
+        "cell": "7::0",
+        "n_per_condition": 5,
+        "sup_pool": 5,
+        "mis_pool": 65
+      },
+      {
+        "cell": "0::0",
+        "n_per_condition": 75,
+        "sup_pool": 415,
+        "mis_pool": 75
+      },
+      {
+        "cell": "8::7",
+        "n_per_condition": 35,
+        "sup_pool": 35,
+        "mis_pool": 65
+      },
+      {
+        "cell": "4::5",
+        "n_per_condition": 30,
+        "sup_pool": 95,
+        "mis_pool": 30
+      },
+      {
+        "cell": "3::4",
+        "n_per_condition": 15,
+        "sup_pool": 15,
+        "mis_pool": 190
+      },
+      {
+        "cell": "8::3",
+        "n_per_condition": 5,
+        "sup_pool": 5,
+        "mis_pool": 235
+      },
+      {
+        "cell": "7::3",
+        "n_per_condition": 35,
+        "sup_pool": 35,
+        "mis_pool": 85
+      },
+      {
+        "cell": "4::2",
+        "n_per_condition": 15,
+        "sup_pool": 15,
+        "mis_pool": 35
+      },
+      {
+        "cell": "1::7",
+        "n_per_condition": 35,
+        "sup_pool": 55,
+        "mis_pool": 35
+      },
+      {
+        "cell": "3::7",
+        "n_per_condition": 20,
+        "sup_pool": 80,
+        "mis_pool": 20
+      },
+      {
+        "cell": "6::1",
+        "n_per_condition": 25,
+        "sup_pool": 25,
+        "mis_pool": 35
+      },
+      {
+        "cell": "5::3",
+        "n_per_condition": 10,
+        "sup_pool": 40,
+        "mis_pool": 10
+      },
+      {
+        "cell": "6::3",
+        "n_per_condition": 30,
+        "sup_pool": 30,
+        "mis_pool": 30
+      },
+      {
+        "cell": "4::1",
+        "n_per_condition": 15,
+        "sup_pool": 15,
+        "mis_pool": 50
+      },
+      {
+        "cell": "4::0",
+        "n_per_condition": 10,
+        "sup_pool": 10,
+        "mis_pool": 35
+      },
+      {
+        "cell": "8::5",
+        "n_per_condition": 20,
+        "sup_pool": 20,
+        "mis_pool": 190
+      },
+      {
+        "cell": "5::5",
+        "n_per_condition": 15,
+        "sup_pool": 120,
+        "mis_pool": 15
+      },
+      {
+        "cell": "5::0",
+        "n_per_condition": 20,
+        "sup_pool": 25,
+        "mis_pool": 20
+      },
+      {
+        "cell": "8::9",
+        "n_per_condition": 5,
+        "sup_pool": 25,
+        "mis_pool": 5
+      },
+      {
+        "cell": "5::1",
+        "n_per_condition": 15,
+        "sup_pool": 15,
+        "mis_pool": 20
+      },
+      {
+        "cell": "6::5",
+        "n_per_condition": 15,
+        "sup_pool": 130,
+        "mis_pool": 15
+      }
+    ]
+  }
+}

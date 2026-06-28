@@ -1,0 +1,7 @@
+{
+  "judge_rows": 1940,
+  "judge_positive_rate": 0.32989690721649484,
+  "corrected_sample_count": 640,
+  "original_correct_mean": 0.20352,
+  "adjusted_correct_mean": 0.22058666666666665
+}

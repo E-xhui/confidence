@@ -1,0 +1,13 @@
+{
+  "source_contexts": "runs/phase2_five_condition/contexts_phase2.jsonl",
+  "out": "runs/t3_cross_family/contexts_phi3_300.jsonl",
+  "seed": 20260625,
+  "questions_per_bin": 100,
+  "selected_questions": 300,
+  "rows": 1500,
+  "popularity_counts": {
+    "low": 100,
+    "mid": 100,
+    "high": 100
+  }
+}

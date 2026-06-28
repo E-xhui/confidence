@@ -1,0 +1,222 @@
+{
+  "prediction_path": "runs/phase2_main/predictions_qwen_full.jsonl",
+  "n_rows": 22500,
+  "n_questions": 1443,
+  "models": [
+    "/data/home/yixh/models/Qwen2.5-7B-Instruct"
+  ],
+  "confidence_columns": [
+    "conf_verbalized",
+    "conf_ptrue",
+    "conf_seqlik"
+  ],
+  "closed_book_correct_rate": {
+    "mean": 0.0893970893970894,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.2,
+    "counts": {
+      "0.0": 1281,
+      "0.2": 18,
+      "0.4": 18,
+      "0.5": 2,
+      "0.6": 12,
+      "0.8": 10,
+      "1.0": 102
+    }
+  },
+  "by_confidence": {
+    "conf_verbalized": {
+      "condition_summary": [
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "closed",
+          "acc": 0.0893970893970894,
+          "conf": 0.7996243936243936,
+          "abstain_rate": 0.002702702702702703,
+          "delta_acc": 0.0,
+          "delta_conf": 0.0,
+          "FG": 0.0,
+          "n_questions": 1443
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "mis",
+          "acc": 0.003465003465003465,
+          "conf": 0.9568814968814968,
+          "abstain_rate": 0.018364518364518363,
+          "delta_acc": -0.08593208593208593,
+          "delta_conf": 0.15725710325710326,
+          "FG": 0.24318918918918922,
+          "n_questions": 1443
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "sup",
+          "acc": 0.6778239778239779,
+          "conf": 0.8791718641718642,
+          "abstain_rate": 0.0005544005544005545,
+          "delta_acc": 0.5884268884268884,
+          "delta_conf": 0.07954747054747056,
+          "FG": -0.5088794178794178,
+          "n_questions": 1443
+        }
+      ],
+      "gate": {
+        "FG_mis": 0.24318918918918922,
+        "delta_acc_mis": -0.08593208593208593,
+        "delta_conf_mis": 0.15725710325710326,
+        "faithfulness_beta": {
+          "alpha_F": 0.10522626221611082,
+          "beta_F": 0.0524424317256974,
+          "beta_F_p_value": 9.497784421793606e-10,
+          "n": 2886
+        }
+      },
+      "variance_decomposition": {
+        "estimator": "REML MixedLM",
+        "evidence_conditions": [
+          "sup",
+          "mis"
+        ],
+        "sigma2_P": 1.2848538245735668,
+        "sigma2_E": 0.1897550202439333,
+        "sigma2_PE": 18.506625747912768,
+        "sigma2_eps": 0.9657528805332202,
+        "rho_P": 0.06133835837795485,
+        "rho_E": 0.00905882148858563,
+        "rho_PE": 0.8834982009481998,
+        "rho_eps": 0.046104619185259786,
+        "mixedlm_converged": true
+      }
+    },
+    "conf_ptrue": {
+      "condition_summary": [
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "closed",
+          "acc": 0.0893970893970894,
+          "conf": 0.479395506685133,
+          "abstain_rate": 0.002702702702702703,
+          "delta_acc": 0.0,
+          "delta_conf": 0.0,
+          "FG": 0.0,
+          "n_questions": 1443
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "mis",
+          "acc": 0.003465003465003465,
+          "conf": 0.9541259268706545,
+          "abstain_rate": 0.018364518364518363,
+          "delta_acc": -0.08593208593208593,
+          "delta_conf": 0.4747304201855215,
+          "FG": 0.5606625061176074,
+          "n_questions": 1443
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "sup",
+          "acc": 0.6778239778239779,
+          "conf": 0.8661409175306215,
+          "abstain_rate": 0.0005544005544005545,
+          "delta_acc": 0.5884268884268884,
+          "delta_conf": 0.38674541084548847,
+          "FG": -0.20168147758139993,
+          "n_questions": 1443
+        }
+      ],
+      "gate": {
+        "FG_mis": 0.5606625061176074,
+        "delta_acc_mis": -0.08593208593208593,
+        "delta_conf_mis": 0.4747304201855215,
+        "faithfulness_beta": {
+          "alpha_F": 0.411922295304317,
+          "beta_F": 0.07488881523857159,
+          "beta_F_p_value": 8.974827641478939e-06,
+          "n": 2886
+        }
+      },
+      "variance_decomposition": {
+        "estimator": "REML MixedLM",
+        "evidence_conditions": [
+          "sup",
+          "mis"
+        ],
+        "sigma2_P": 3.8646955721675466e-06,
+        "sigma2_E": 0.5763114921901267,
+        "sigma2_PE": 21.384681947969412,
+        "sigma2_eps": 1.3948719723964238,
+        "rho_P": 1.6546999498458982e-07,
+        "rho_E": 0.02467523196627284,
+        "rho_PE": 0.9156020567728539,
+        "rho_eps": 0.059722545790878365,
+        "mixedlm_converged": true
+      }
+    },
+    "conf_seqlik": {
+      "condition_summary": [
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "closed",
+          "acc": 0.0893970893970894,
+          "conf": 0.6225076962496976,
+          "abstain_rate": 0.002702702702702703,
+          "delta_acc": 0.0,
+          "delta_conf": 0.0,
+          "FG": 0.0,
+          "n_questions": 1443
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "mis",
+          "acc": 0.003465003465003465,
+          "conf": 0.9840972028678491,
+          "abstain_rate": 0.018364518364518363,
+          "delta_acc": -0.08593208593208593,
+          "delta_conf": 0.3615895066181515,
+          "FG": 0.44752159255023743,
+          "n_questions": 1443
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "sup",
+          "acc": 0.6778239778239779,
+          "conf": 0.9655901925114633,
+          "abstain_rate": 0.0005544005544005545,
+          "delta_acc": 0.5884268884268884,
+          "delta_conf": 0.34308249626176557,
+          "FG": -0.24534439216512283,
+          "n_questions": 1443
+        }
+      ],
+      "gate": {
+        "FG_mis": 0.44752159255023743,
+        "delta_acc_mis": -0.08593208593208593,
+        "delta_conf_mis": 0.3615895066181515,
+        "faithfulness_beta": {
+          "alpha_F": 0.332508091622785,
+          "beta_F": 0.07891787026942744,
+          "beta_F_p_value": 9.977421153397759e-23,
+          "n": 2886
+        }
+      },
+      "variance_decomposition": {
+        "estimator": "REML MixedLM",
+        "evidence_conditions": [
+          "sup",
+          "mis"
+        ],
+        "sigma2_P": 2.6715789080710883,
+        "sigma2_E": 0.27679639096663966,
+        "sigma2_PE": 4.838336999141603,
+        "sigma2_eps": 0.12054520512991983,
+        "rho_P": 0.33786415921740387,
+        "rho_E": 0.035005359424654894,
+        "rho_PE": 0.611885599667991,
+        "rho_eps": 0.01524488168995011,
+        "mixedlm_converged": true
+      }
+    }
+  }
+}

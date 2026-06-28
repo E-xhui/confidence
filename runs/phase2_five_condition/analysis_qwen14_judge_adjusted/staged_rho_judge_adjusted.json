@@ -1,0 +1,45 @@
+{
+  "estimator": "REML MixedLM staged",
+  "conditions": [
+    "irr",
+    "same_entity_irr",
+    "sup",
+    "mis"
+  ],
+  "coding": {
+    "topicality": {
+      "irr": -0.75,
+      "same_entity_irr": 0.25,
+      "sup": 0.25,
+      "mis": 0.25
+    },
+    "answer_support": {
+      "irr": 0.0,
+      "same_entity_irr": -0.6666666666666666,
+      "sup": 0.3333333333333333,
+      "mis": 0.3333333333333333
+    },
+    "veracity": {
+      "irr": 0.0,
+      "same_entity_irr": 0.0,
+      "sup": 0.5,
+      "mis": -0.5
+    }
+  },
+  "beta_topicality": -0.10921139349226316,
+  "beta_answer_support": 4.030174372660172,
+  "beta_veracity": 0.44987919626794426,
+  "sigma2_P": 1.7505812569181736,
+  "sigma2_topicality": 0.0022363365878478644,
+  "sigma2_answer_support": 2.7070509123411344,
+  "sigma2_veracity": 0.02529891140433644,
+  "sigma2_PE": 38.6676152023855,
+  "sigma2_eps": 5.6680879473184085,
+  "rho_P": 0.035857231478847514,
+  "rho_topicality": 4.580697889810956e-05,
+  "rho_answer_support": 0.05544864073303544,
+  "rho_veracity": 0.0005181986947496201,
+  "rho_PE": 0.7920304319308435,
+  "rho_eps": 0.11609969018362559,
+  "mixedlm_converged": true
+}

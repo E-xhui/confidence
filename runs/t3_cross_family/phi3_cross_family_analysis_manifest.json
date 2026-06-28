@@ -1,0 +1,8 @@
+{
+  "predictions": "runs/t3_cross_family/predictions_phi3_full.jsonl",
+  "prediction_rows": 7500,
+  "n_questions": 300,
+  "n_cells": 1500,
+  "bootstrap_B": 300,
+  "seed": 20260625
+}

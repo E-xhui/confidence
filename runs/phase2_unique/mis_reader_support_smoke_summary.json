@@ -1,0 +1,9 @@
+{
+  "n": 5,
+  "support_wrong_rate": 1.0,
+  "support_gold_rate": 0.0,
+  "reader_model": [
+    "/data/home/yixh/models/Qwen2.5-7B-Instruct"
+  ],
+  "examples_not_supporting_wrong": []
+}

@@ -1,0 +1,12 @@
+'timed out' thrown while requesting HEAD https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/resolve/main/config.json
+Retrying in 1s [Retry 1/5].
+'timed out' thrown while requesting HEAD https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/resolve/main/config.json
+Retrying in 2s [Retry 2/5].
+'timed out' thrown while requesting HEAD https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/resolve/main/config.json
+Retrying in 4s [Retry 3/5].
+'timed out' thrown while requesting HEAD https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/resolve/main/config.json
+Retrying in 8s [Retry 4/5].
+'timed out' thrown while requesting HEAD https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/resolve/main/config.json
+Retrying in 8s [Retry 5/5].
+'timed out' thrown while requesting HEAD https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/resolve/main/config.json
+slurmstepd: error: *** JOB 3765 ON gpu-07 CANCELLED AT 2026-06-21T11:08:51 ***

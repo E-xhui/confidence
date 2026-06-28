@@ -1,0 +1,257 @@
+{
+  "prediction_path": "runs/phase2_unique_with_irr/predictions_qwen_full.jsonl",
+  "n_rows": 30000,
+  "n_questions": 1500,
+  "models": [
+    "/data/home/yixh/models/Qwen2.5-7B-Instruct"
+  ],
+  "confidence_columns": [
+    "conf_verbalized",
+    "conf_ptrue",
+    "conf_seqlik"
+  ],
+  "closed_book_correct_rate": {
+    "mean": 0.09826666666666667,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 0.4,
+    "counts": {
+      "0.0": 1315,
+      "0.2": 23,
+      "0.4": 18,
+      "0.6": 13,
+      "0.8": 16,
+      "1.0": 115
+    }
+  },
+  "by_confidence": {
+    "conf_verbalized": {
+      "condition_summary": [
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "closed",
+          "acc": 0.09826666666666667,
+          "conf": 0.7955293333333332,
+          "abstain_rate": 0.0028,
+          "delta_acc": 0.0,
+          "delta_conf": 0.0,
+          "FG": 0.0,
+          "n_questions": 1500
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "irr",
+          "acc": 0.0208,
+          "conf": 0.08702666666666665,
+          "abstain_rate": 0.005466666666666667,
+          "delta_acc": -0.07746666666666667,
+          "delta_conf": -0.7085026666666666,
+          "FG": -0.6310359999999999,
+          "n_questions": 1500
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "mis",
+          "acc": 0.004533333333333333,
+          "conf": 0.9563133333333333,
+          "abstain_rate": 0.01813333333333333,
+          "delta_acc": -0.09373333333333334,
+          "delta_conf": 0.160784,
+          "FG": 0.2545173333333333,
+          "n_questions": 1500
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "sup",
+          "acc": 0.6853333333333333,
+          "conf": 0.8764666666666667,
+          "abstain_rate": 0.0005333333333333334,
+          "delta_acc": 0.5870666666666667,
+          "delta_conf": 0.08093733333333335,
+          "FG": -0.5061293333333333,
+          "n_questions": 1500
+        }
+      ],
+      "gate": {
+        "FG_mis": 0.2545173333333333,
+        "delta_acc_mis": -0.09373333333333334,
+        "delta_conf_mis": 0.160784,
+        "faithfulness_beta": {
+          "alpha_F": -0.1980275080240933,
+          "beta_F": 0.30611059010647174,
+          "beta_F_p_value": 3.513877040498135e-157,
+          "n": 4500
+        }
+      },
+      "variance_decomposition": {
+        "estimator": "REML MixedLM",
+        "evidence_conditions": [
+          "sup",
+          "mis",
+          "irr"
+        ],
+        "sigma2_P": 0.5489451664141561,
+        "sigma2_E": 44.166306120015285,
+        "sigma2_PE": 17.917476673035996,
+        "sigma2_eps": 1.7745130812075518,
+        "rho_P": 0.008523034949866875,
+        "rho_E": 0.6857351037925127,
+        "rho_PE": 0.2781904081517971,
+        "rho_eps": 0.027551453105823173,
+        "mixedlm_converged": true
+      }
+    },
+    "conf_ptrue": {
+      "condition_summary": [
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "closed",
+          "acc": 0.09826666666666667,
+          "conf": 0.4720184269340501,
+          "abstain_rate": 0.0028,
+          "delta_acc": 0.0,
+          "delta_conf": 0.0,
+          "FG": 0.0,
+          "n_questions": 1500
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "irr",
+          "acc": 0.0208,
+          "conf": 0.045786290699712406,
+          "abstain_rate": 0.005466666666666667,
+          "delta_acc": -0.07746666666666667,
+          "delta_conf": -0.4262321362343377,
+          "FG": -0.34876546956767096,
+          "n_questions": 1500
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "mis",
+          "acc": 0.004533333333333333,
+          "conf": 0.9503861370579446,
+          "abstain_rate": 0.01813333333333333,
+          "delta_acc": -0.09373333333333334,
+          "delta_conf": 0.47836771012389456,
+          "FG": 0.5721010434572279,
+          "n_questions": 1500
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "sup",
+          "acc": 0.6853333333333333,
+          "conf": 0.8629317651508509,
+          "abstain_rate": 0.0005333333333333334,
+          "delta_acc": 0.5870666666666667,
+          "delta_conf": 0.39091333821680085,
+          "FG": -0.19615332844986583,
+          "n_questions": 1500
+        }
+      ],
+      "gate": {
+        "FG_mis": 0.5721010434572279,
+        "delta_acc_mis": -0.09373333333333334,
+        "delta_conf_mis": 0.47836771012389456,
+        "faithfulness_beta": {
+          "alpha_F": 0.09894258235983676,
+          "beta_F": 0.3516058793527919,
+          "beta_F_p_value": 2.5094194509108416e-102,
+          "n": 4500
+        }
+      },
+      "variance_decomposition": {
+        "estimator": "REML MixedLM",
+        "evidence_conditions": [
+          "sup",
+          "mis",
+          "irr"
+        ],
+        "sigma2_P": 0.30326815445129485,
+        "sigma2_E": 54.87433779507086,
+        "sigma2_PE": 18.020060434074832,
+        "sigma2_eps": 0.8632666582924737,
+        "rho_P": 0.004094846526977509,
+        "rho_E": 0.74093500501855,
+        "rho_PE": 0.2433139807175065,
+        "rho_eps": 0.011656167736966035,
+        "mixedlm_converged": true
+      }
+    },
+    "conf_seqlik": {
+      "condition_summary": [
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "closed",
+          "acc": 0.09826666666666667,
+          "conf": 0.6259318957229214,
+          "abstain_rate": 0.0028,
+          "delta_acc": 0.0,
+          "delta_conf": 0.0,
+          "FG": 0.0,
+          "n_questions": 1500
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "irr",
+          "acc": 0.0208,
+          "conf": 0.8555721078997595,
+          "abstain_rate": 0.005466666666666667,
+          "delta_acc": -0.07746666666666667,
+          "delta_conf": 0.229640212176838,
+          "FG": 0.3071068788435047,
+          "n_questions": 1500
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "mis",
+          "acc": 0.004533333333333333,
+          "conf": 0.9834514510051494,
+          "abstain_rate": 0.01813333333333333,
+          "delta_acc": -0.09373333333333334,
+          "delta_conf": 0.35751955528222795,
+          "FG": 0.4512528886155613,
+          "n_questions": 1500
+        },
+        {
+          "model_name": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+          "condition": "sup",
+          "acc": 0.6853333333333333,
+          "conf": 0.965427342741865,
+          "abstain_rate": 0.0005333333333333334,
+          "delta_acc": 0.5870666666666667,
+          "delta_conf": 0.33949544701894363,
+          "FG": -0.247571219647723,
+          "n_questions": 1500
+        }
+      ],
+      "gate": {
+        "FG_mis": 0.4512528886155613,
+        "delta_acc_mis": -0.09373333333333334,
+        "delta_conf_mis": 0.35751955528222795,
+        "faithfulness_beta": {
+          "alpha_F": 0.290719752733037,
+          "beta_F": 0.13104189550873296,
+          "beta_F_p_value": 1.603547408325038e-84,
+          "n": 4500
+        }
+      },
+      "variance_decomposition": {
+        "estimator": "REML MixedLM",
+        "evidence_conditions": [
+          "sup",
+          "mis",
+          "irr"
+        ],
+        "sigma2_P": 0.9813371533132541,
+        "sigma2_E": 5.463959332921074,
+        "sigma2_PE": 4.983895210397074,
+        "sigma2_eps": 0.0820319435036335,
+        "rho_P": 0.08525046372061817,
+        "rho_E": 0.4746636416540837,
+        "rho_PE": 0.43295963715101704,
+        "rho_eps": 0.007126257474281092,
+        "mixedlm_converged": true
+      }
+    }
+  }
+}

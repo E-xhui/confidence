@@ -1,0 +1,11 @@
+{
+  "predictions": "runs/phase2_five_condition/predictions_qwen14_full.jsonl",
+  "n_rows": 37500,
+  "n_questions": 1500,
+  "confidence_columns": [
+    "conf_ptrue",
+    "conf_verbalized",
+    "conf_seqlik"
+  ],
+  "primary_confidence": "conf_ptrue"
+}

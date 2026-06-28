@@ -1,0 +1,31 @@
+{
+  "confidence": "conf_ptrue",
+  "predictions": "runs/phase2_unique_with_irr/predictions_qwen_full.jsonl",
+  "sup_reader": "runs/phase2_unique/sup_reader_support.jsonl",
+  "closed_known_questions": 144,
+  "closed_acc_on_closed_known": 0.9416666666666669,
+  "sup_acc_on_closed_known": 0.8180555555555556,
+  "sup_conf_on_closed_known": 0.8948443675369594,
+  "sup_worse_than_closed_rate": 0.20833333333333334,
+  "sup_mostly_wrong_rate": 0.1875,
+  "sup_mostly_wrong_mean_conf": 0.6938563696432005,
+  "sup_reader_n": 1500,
+  "sup_reader_support_gold_rate": 0.8133333333333334,
+  "sup_reader_support_wrong_rate": 0.009333333333333334,
+  "sup_on_known_by_reader": [
+    {
+      "sup_reader_supports_gold": 0,
+      "n_questions": 13,
+      "sup_acc": 0.1846153846153846,
+      "sup_conf": 0.3427153455169346,
+      "sup_mostly_wrong_rate": 0.8461538461538461
+    },
+    {
+      "sup_reader_supports_gold": 1,
+      "n_questions": 131,
+      "sup_acc": 0.8809160305343512,
+      "sup_conf": 0.9496357972030686,
+      "sup_mostly_wrong_rate": 0.12213740458015267
+    }
+  ]
+}

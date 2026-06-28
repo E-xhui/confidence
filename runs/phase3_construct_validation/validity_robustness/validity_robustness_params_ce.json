@@ -1,0 +1,7 @@
+{
+  "seed": 20260623,
+  "bootstrap_b": 1000,
+  "unit": "question_condition_cell_mean",
+  "parts": "C,E",
+  "c3_status_rule": "diagnostic if condition_number > 30 or max_vif > 10"
+}

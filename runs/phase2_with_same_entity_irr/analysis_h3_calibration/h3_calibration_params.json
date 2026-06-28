@@ -1,0 +1,53 @@
+{
+  "seed": 20260620,
+  "train_frac": 0.5,
+  "train_questions": 750,
+  "eval_questions": 750,
+  "source_confidence_columns": [
+    "conf_ptrue",
+    "conf_verbalized",
+    "conf_seqlik"
+  ],
+  "conf_ptrue": {
+    "identity": {},
+    "temperature_scaling": {
+      "temperature": 28.81268666883605,
+      "success": true
+    },
+    "platt_logistic": {
+      "coef": 0.10224787654176591,
+      "intercept": -2.025289939946304
+    },
+    "isotonic_relabel": {
+      "threshold_count": 22
+    }
+  },
+  "conf_verbalized": {
+    "identity": {},
+    "temperature_scaling": {
+      "temperature": 24.976642127496138,
+      "success": true
+    },
+    "platt_logistic": {
+      "coef": 0.12443963407275699,
+      "intercept": -2.0837338045313225
+    },
+    "isotonic_relabel": {
+      "threshold_count": 8
+    }
+  },
+  "conf_seqlik": {
+    "identity": {},
+    "temperature_scaling": {
+      "temperature": 54.59585527850924,
+      "success": true
+    },
+    "platt_logistic": {
+      "coef": 0.18945619761895843,
+      "intercept": -2.5158841399132865
+    },
+    "isotonic_relabel": {
+      "threshold_count": 44
+    }
+  }
+}

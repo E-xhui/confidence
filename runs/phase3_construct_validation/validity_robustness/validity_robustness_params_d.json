@@ -1,0 +1,9 @@
+{
+  "seed": 20260623,
+  "paired_bootstrap_b": 1000,
+  "rho_bootstrap_b": 300,
+  "sup_reader": "runs/phase2_unique/sup_reader_support.jsonl",
+  "mis_reader": "runs/phase2_unique/mis_reader_support.jsonl",
+  "d3_sample": "part_d3_blind_audit_sample.jsonl",
+  "human_20_spot_check": "deferred limitation"
+}
