@@ -1,0 +1,70 @@
+{
+  "n": 1500,
+  "support_wrong_rate": 0.906,
+  "support_gold_rate": 0.01,
+  "reader_model": [
+    "/data/home/yixh/models/Qwen2.5-14B-Instruct"
+  ],
+  "examples_not_supporting_wrong": [
+    {
+      "question": "What is Hamilton the capital of?",
+      "gold_answer": "Shire of Southern Grampians",
+      "wrong_answer": " Hamilton is the capital of the Canadian province of Ontario.",
+      "reader_answer": "Hamilton is not the capital of any province or country; it is a city in Ontario"
+    },
+    {
+      "question": "What genre is Eat at Home?",
+      "gold_answer": "rock music",
+      "wrong_answer": " Eat at Home is a cooking and recipe website.",
+      "reader_answer": "food/recipe website"
+    },
+    {
+      "question": "In what country is Rainbow Springs?",
+      "gold_answer": "United States of America",
+      "wrong_answer": "Rainbow Springs is in CO.",
+      "reader_answer": "United States"
+    },
+    {
+      "question": "Who was the screenwriter for Her?",
+      "gold_answer": "Spike Jonze",
+      "wrong_answer": "Trey Parker is the screenwriter for Her.",
+      "reader_answer": "Spike Jonze"
+    },
+    {
+      "question": "Who is the mother of Mikheil Saakashvili?",
+      "gold_answer": "Giuli Alasania",
+      "wrong_answer": " Nino Chkhartishvili",
+      "reader_answer": "The given context does not provide information about Mikheil Saakashvili's mother. Therefore, the answer cannot be derived from the provided text"
+    },
+    {
+      "question": "Who is the father of Vanlandi?",
+      "gold_answer": "Sveigðir",
+      "wrong_answer": " The father of Vanlandi is not publicly known.",
+      "reader_answer": "Unknown"
+    },
+    {
+      "question": "What genre is Turbo?",
+      "gold_answer": "racing video game",
+      "wrong_answer": "The genre of Turbo is sci fi.",
+      "reader_answer": "Science fiction"
+    },
+    {
+      "question": "Who was the screenwriter for Virus?",
+      "gold_answer": "Kinji Fukasaku",
+      "wrong_answer": " The screenwriter for Virus was James Cameron.",
+      "reader_answer": "Chuck Pfarrer and Dennis Feldman"
+    },
+    {
+      "question": "What is Dean Alfange's occupation?",
+      "gold_answer": "politician",
+      "wrong_answer": " Dean Alfange is a software engineer.",
+      "reader_answer": "software developer"
+    },
+    {
+      "question": "In what city was György Kárpáti born?",
+      "gold_answer": "Budapest",
+      "wrong_answer": "György Kárpáti was born in Santurce.",
+      "reader_answer": "San Juan (Santurce is a neighborhood in San Juan)"
+    }
+  ]
+}

@@ -9,7 +9,13 @@ ragcalib/       # 核心模块（指标计算、数据加载、模型推理）
 scripts/        # 实验脚本（数据构造、模型采样、分析）
 runs/           # 实验输出（预测文件、分析报告）
 figures/        # 生成的图表
+logs/           # 统一整理的服务器 Slurm 日志包
 ```
+
+## 服务器日志
+
+完整 Slurm / server 日志已集中放在 `logs/RAG_server_slurm_logs_20260628/`。
+优先查看 `metadata/job_id_index.md` 和 `metadata/log_file_manifest.csv`。
 
 ## 实验进度
 

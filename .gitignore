@@ -24,7 +24,7 @@ docs/summaries/phase4_probe_controls_t1.md
 # Binary documents (DOCX contain metadata)
 *.docx
 
-# Logs (keep Slurm logs in runs/*/logs/ for provenance)
+# Logs (centralized Slurm/server log bundles live under logs/)
 
 # Internal docs (not for public review)
 spec.md

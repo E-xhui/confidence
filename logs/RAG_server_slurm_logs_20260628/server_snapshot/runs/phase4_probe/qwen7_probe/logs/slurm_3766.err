@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/data/home/yixh/RAG/scripts/analyze_phase4_probe.py", line 22, in <module>
+    from ragcalib.metrics import load_predictions
+  File "/data/home/yixh/RAG/ragcalib/metrics.py", line 10, in <module>
+    import statsmodels.api as sm
+ModuleNotFoundError: No module named 'statsmodels'

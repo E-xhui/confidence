@@ -1,0 +1,204 @@
+﻿source,phase_or_run,job_id,array_task_id,file_type,relative_path,bytes,lines,modified_local_time,status_hint,last_nonempty_line
+server,phase2_five_condition,3762,,err,server_snapshot/runs/phase2_five_condition/logs/slurm_judge_3762.err,29195,377,2026-06-21 09:12:56,log_present,"Loading weights: 100%|██████████| 963/963 [04:36<00:00,  3.48it/s]"
+server,phase2_five_condition,3762,,out,server_snapshot/runs/phase2_five_condition/logs/slurm_judge_3762.out,0,0,2026-06-21 09:08:06,empty,
+server,phase2_five_condition,3763,,err,server_snapshot/runs/phase2_five_condition/logs/slurm_judge_3763.err,13213,172,2026-06-21 09:20:14,log_present,"Loading weights: 100%|██████████| 963/963 [00:34<00:00, 27.82it/s]"
+server,phase2_five_condition,3763,,out,server_snapshot/runs/phase2_five_condition/logs/slurm_judge_3763.out,0,0,2026-06-21 09:19:28,empty,
+server,phase2_five_condition,3750,0,err,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3750_0.err,3842,50,2026-06-21 00:06:54,log_present,"Loading weights: 100%|██████████| 579/579 [00:05<00:00, 104.56it/s]"
+server,phase2_five_condition,3750,0,out,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3750_0.out,0,0,2026-06-21 00:06:39,empty,
+server,phase2_five_condition,3751,0,err,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_0.err,3908,51,2026-06-21 00:10:33,log_present,"Loading weights: 100%|██████████| 579/579 [00:05<00:00, 103.63it/s]"
+server,phase2_five_condition,3751,0,out,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_0.out,0,0,2026-06-21 00:10:18,empty,
+server,phase2_five_condition,3751,1,err,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_1.err,3839,50,2026-06-21 00:10:33,log_present,"Loading weights: 100%|██████████| 579/579 [00:05<00:00, 103.35it/s]"
+server,phase2_five_condition,3751,1,out,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_1.out,0,0,2026-06-21 00:10:18,empty,
+server,phase2_five_condition,3751,2,err,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_2.err,2500,33,2026-06-21 01:05:02,log_present,"Loading weights: 100%|██████████| 579/579 [00:03<00:00, 167.39it/s]"
+server,phase2_five_condition,3751,2,out,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_2.out,0,0,2026-06-21 01:04:49,empty,
+server,phase2_five_condition,3751,3,err,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_3.err,3767,49,2026-06-21 01:05:27,log_present,"Loading weights: 100%|██████████| 579/579 [00:05<00:00, 108.39it/s]"
+server,phase2_five_condition,3751,3,out,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_3.out,0,0,2026-06-21 01:05:15,empty,
+server,phase2_five_condition,3751,4,err,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_4.err,3911,51,2026-06-21 01:59:56,log_present,"Loading weights: 100%|██████████| 579/579 [00:05<00:00, 104.16it/s]"
+server,phase2_five_condition,3751,4,out,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_4.out,0,0,2026-06-21 01:59:40,empty,
+server,phase2_five_condition,3751,5,err,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_5.err,3913,51,2026-06-21 02:01:16,log_present,"Loading weights: 100%|██████████| 579/579 [00:05<00:00, 106.43it/s]"
+server,phase2_five_condition,3751,5,out,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_5.out,0,0,2026-06-21 02:01:02,empty,
+server,phase2_five_condition,3751,6,err,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_6.err,2425,32,2026-06-21 02:55:33,log_present,"Loading weights: 100%|██████████| 579/579 [00:03<00:00, 174.24it/s]"
+server,phase2_five_condition,3751,6,out,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_6.out,0,0,2026-06-21 02:55:20,empty,
+server,phase2_five_condition,3751,7,err,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_7.err,3913,51,2026-06-21 02:56:08,log_present,"Loading weights: 100%|██████████| 579/579 [00:05<00:00, 105.81it/s]"
+server,phase2_five_condition,3751,7,out,server_snapshot/runs/phase2_five_condition/logs/slurm_model2_3751_7.out,0,0,2026-06-21 02:55:54,empty,
+server,phase2_main,,0,log,server_snapshot/runs/phase2_main/logs/qwen_shard_0.log,2737,38,2026-06-18 20:03:54,log_present,"Loading weights: 100%|██████████| 339/339 [00:05<00:00, 64.15it/s]"
+server,phase2_main,,1,log,server_snapshot/runs/phase2_main/logs/qwen_shard_1.log,2516,35,2026-06-18 20:03:08,log_present,"Loading weights: 100%|██████████| 339/339 [00:05<00:00, 66.42it/s]"
+server,phase2_main,,2,log,server_snapshot/runs/phase2_main/logs/qwen_shard_2.log,2883,40,2026-06-18 20:03:18,log_present,"Loading weights: 100%|██████████| 339/339 [00:05<00:00, 62.17it/s]"
+server,phase2_main,,3,log,server_snapshot/runs/phase2_main/logs/qwen_shard_3.log,2600,36,2026-06-18 20:04:05,log_present,"Loading weights: 100%|██████████| 339/339 [00:05<00:00, 66.79it/s]"
+server,phase2_main,,4,log,server_snapshot/runs/phase2_main/logs/qwen_shard_4.log,2735,38,2026-06-18 20:03:26,log_present,"Loading weights: 100%|██████████| 339/339 [00:05<00:00, 63.19it/s]"
+server,phase2_main,,5,log,server_snapshot/runs/phase2_main/logs/qwen_shard_5.log,2598,36,2026-06-18 20:03:29,log_present,"Loading weights: 100%|██████████| 339/339 [00:05<00:00, 62.51it/s]"
+server,phase2_main,,6,log,server_snapshot/runs/phase2_main/logs/qwen_shard_6.log,1984,28,2026-06-18 20:03:21,log_present,"Loading weights: 100%|██████████| 339/339 [00:02<00:00, 114.42it/s]"
+server,phase2_main,,7,log,server_snapshot/runs/phase2_main/logs/qwen_shard_7.log,2667,37,2026-06-18 20:03:08,log_present,"Loading weights: 100%|██████████| 339/339 [00:05<00:00, 64.31it/s]"
+server,phase2_main,3693,0,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_0.err,6706,88,2026-06-18 20:31:55,log_present,"Loading weights: 100%|██████████| 339/339 [00:29<00:00, 11.35it/s]"
+server,phase2_main,3693,0,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_0.out,0,0,2026-06-18 20:31:13,empty,
+server,phase2_main,3693,1,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_1.err,6336,83,2026-06-18 20:32:24,log_present,"Loading weights: 100%|██████████| 339/339 [00:32<00:00, 10.30it/s]"
+server,phase2_main,3693,1,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_1.out,0,0,2026-06-18 20:31:13,empty,
+server,phase2_main,3693,2,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_2.err,6192,81,2026-06-18 20:32:24,log_present,"Loading weights: 100%|██████████| 339/339 [00:32<00:00, 10.30it/s]"
+server,phase2_main,3693,2,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_2.out,0,0,2026-06-18 20:31:13,empty,
+server,phase2_main,3693,3,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_3.err,2465,33,2026-06-18 20:45:28,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 96.28it/s]"
+server,phase2_main,3693,3,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_3.out,0,0,2026-06-18 20:44:45,empty,
+server,phase2_main,3693,4,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_4.err,2337,31,2026-06-18 20:45:38,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 103.18it/s]"
+server,phase2_main,3693,4,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_4.out,0,0,2026-06-18 20:44:58,empty,
+server,phase2_main,3693,5,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_5.err,1829,25,2026-06-18 20:45:22,log_present,"Loading weights: 100%|██████████| 339/339 [00:04<00:00, 78.75it/s]"
+server,phase2_main,3693,5,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_5.out,0,0,2026-06-18 20:45:07,empty,
+server,phase2_main,3693,6,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_6.err,2393,32,2026-06-18 20:58:10,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 95.92it/s]"
+server,phase2_main,3693,6,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_6.out,0,0,2026-06-18 20:57:55,empty,
+server,phase2_main,3693,7,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_7.err,2328,31,2026-06-18 20:58:10,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 95.48it/s]"
+server,phase2_main,3693,7,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3693_7.out,0,0,2026-06-18 20:57:58,empty,
+server,phase2_main,3741,0,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_0.err,2393,32,2026-06-20 22:32:22,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 94.56it/s]"
+server,phase2_main,3741,0,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_0.out,0,0,2026-06-20 22:31:41,empty,
+server,phase2_main,3741,1,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_1.err,2464,33,2026-06-20 22:32:22,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 95.15it/s]"
+server,phase2_main,3741,1,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_1.out,0,0,2026-06-20 22:31:41,empty,
+server,phase2_main,3741,2,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_2.err,2398,32,2026-06-20 22:32:22,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 93.22it/s]"
+server,phase2_main,3741,2,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_2.out,0,0,2026-06-20 22:31:41,empty,
+server,phase2_main,3741,3,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_3.err,2325,31,2026-06-20 22:32:22,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 92.84it/s]"
+server,phase2_main,3741,3,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_3.out,0,0,2026-06-20 22:31:41,empty,
+server,phase2_main,3741,4,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_4.err,2395,32,2026-06-20 22:32:22,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 93.83it/s]"
+server,phase2_main,3741,4,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_4.out,0,0,2026-06-20 22:31:41,empty,
+server,phase2_main,3741,5,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_5.err,2332,31,2026-06-20 22:36:32,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 100.12it/s]"
+server,phase2_main,3741,5,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_5.out,0,0,2026-06-20 22:36:13,empty,
+server,phase2_main,3741,6,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_6.err,2400,32,2026-06-20 22:36:32,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 101.05it/s]"
+server,phase2_main,3741,6,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_6.out,0,0,2026-06-20 22:36:19,empty,
+server,phase2_main,3741,7,err,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_7.err,2338,31,2026-06-20 22:36:32,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 102.37it/s]"
+server,phase2_main,3741,7,out,server_snapshot/runs/phase2_main/logs/slurm_qwen_3741_7.out,0,0,2026-06-20 22:36:21,empty,
+server,phase2_mistral_smoke,3765,,err,server_snapshot/runs/phase2_mistral_smoke/logs/slurm_3765.err,963,12,2026-06-21 11:19:17,needs_review,slurmstepd: error: *** JOB 3765 ON gpu-07 CANCELLED AT 2026-06-21T11:08:51 ***
+server,phase2_mistral_smoke,3765,,out,server_snapshot/runs/phase2_mistral_smoke/logs/slurm_3765.out,0,0,2026-06-21 11:04:35,empty,
+server,phase2_unique,3691,,err,server_snapshot/runs/phase2_unique/logs/slurm_reader_3691.err,131,1,2026-06-18 20:22:30,log_present,/var/spool/slurmd/job03691/slurm_script: line 17: /local/ssd1/software/anaconda3/etc/profile.d/conda.sh: No such file or directory
+server,phase2_unique,3691,,out,server_snapshot/runs/phase2_unique/logs/slurm_reader_3691.out,0,0,2026-06-18 20:22:30,empty,
+server,phase2_unique,3692,,err,server_snapshot/runs/phase2_unique/logs/slurm_reader_3692.err,14501,188,2026-06-18 20:25:07,log_present,"Loading weights: 100%|██████████| 579/579 [00:54<00:00, 10.62it/s]"
+server,phase2_unique,3692,,out,server_snapshot/runs/phase2_unique/logs/slurm_reader_3692.out,2558,70,2026-06-18 20:30:01,log_present,}
+server,phase2_unique,3740,,err,server_snapshot/runs/phase2_unique/logs/slurm_sup_reader_3740.err,10432,137,2026-06-20 22:02:19,log_present,"Loading weights: 100%|██████████| 579/579 [00:39<00:00, 14.67it/s]"
+server,phase2_unique,3740,,out,server_snapshot/runs/phase2_unique/logs/slurm_sup_reader_3740.out,5023,133,2026-06-20 22:09:07,log_present,}
+server,phase2_unique_irr,3732,0,err,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_0.err,2463,33,2026-06-20 20:56:26,log_present,"Loading weights: 100%|██████████| 339/339 [00:04<00:00, 83.44it/s]"
+server,phase2_unique_irr,3732,0,out,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_0.out,0,0,2026-06-20 20:56:10,empty,
+server,phase2_unique_irr,3732,1,err,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_1.err,2390,32,2026-06-20 20:56:26,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 84.99it/s]"
+server,phase2_unique_irr,3732,1,out,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_1.out,0,0,2026-06-20 20:56:10,empty,
+server,phase2_unique_irr,3732,2,err,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_2.err,2315,31,2026-06-20 20:56:26,log_present,"Loading weights: 100%|██████████| 339/339 [00:04<00:00, 82.59it/s]"
+server,phase2_unique_irr,3732,2,out,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_2.out,0,0,2026-06-20 20:56:10,empty,
+server,phase2_unique_irr,3732,3,err,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_3.err,2391,32,2026-06-20 20:56:26,log_present,"Loading weights: 100%|██████████| 339/339 [00:04<00:00, 81.82it/s]"
+server,phase2_unique_irr,3732,3,out,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_3.out,0,0,2026-06-20 20:56:10,empty,
+server,phase2_unique_irr,3732,4,err,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_4.err,2461,33,2026-06-20 20:56:26,log_present,"Loading weights: 100%|██████████| 339/339 [00:04<00:00, 81.52it/s]"
+server,phase2_unique_irr,3732,4,out,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_4.out,0,0,2026-06-20 20:56:10,empty,
+server,phase2_unique_irr,3732,5,err,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_5.err,2327,31,2026-06-20 21:03:46,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 96.05it/s]"
+server,phase2_unique_irr,3732,5,out,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_5.out,0,0,2026-06-20 21:03:28,empty,
+server,phase2_unique_irr,3732,6,err,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_6.err,2328,31,2026-06-20 21:03:46,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 96.33it/s]"
+server,phase2_unique_irr,3732,6,out,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_6.out,0,0,2026-06-20 21:03:30,empty,
+server,phase2_unique_irr,3732,7,err,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_7.err,2332,31,2026-06-20 21:03:46,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 98.89it/s]"
+server,phase2_unique_irr,3732,7,out,server_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_7.out,0,0,2026-06-20 21:03:35,empty,
+server,phase2_with_same_entity_irr,3749,,err,server_snapshot/runs/phase2_with_same_entity_irr/logs/slurm_judge_3749.err,4265,56,2026-06-20 23:35:52,log_present,"Loading weights: 100%|██████████| 579/579 [00:08<00:00, 71.39it/s]"
+server,phase2_with_same_entity_irr,3749,,out,server_snapshot/runs/phase2_with_same_entity_irr/logs/slurm_judge_3749.out,0,0,2026-06-20 23:35:33,empty,
+server,phase3_construct_validation,3838,,err,server_snapshot/runs/phase3_construct_validation/validity_robustness/logs/stim_audit_q14_3838.err,14491,188,2026-06-23 12:53:27,log_present,"Loading weights: 100%|██████████| 579/579 [00:58<00:00,  9.93it/s]"
+server,phase3_construct_validation,3838,,out,server_snapshot/runs/phase3_construct_validation/validity_robustness/logs/stim_audit_q14_3838.out,0,0,2026-06-23 12:52:05,empty,
+server,phase3_construct_validation,3839,,err,server_snapshot/runs/phase3_construct_validation/validity_robustness/logs/stim_audit_q72_3839.err,13168,172,2026-06-23 12:52:55,log_present,"Loading weights: 100%|██████████| 963/963 [00:36<00:00, 26.56it/s]"
+server,phase3_construct_validation,3839,,out,server_snapshot/runs/phase3_construct_validation/validity_robustness/logs/stim_audit_q72_3839.out,0,0,2026-06-23 12:52:05,empty,
+server,phase4_probe,3764,,err,server_snapshot/runs/phase4_probe/logs/slurm_hidden_3764.err,2327,31,2026-06-21 11:04:36,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 97.76it/s]"
+server,phase4_probe,3764,,out,server_snapshot/runs/phase4_probe/logs/slurm_hidden_3764.out,26823,798,2026-06-21 11:07:37,log_present,}
+server,phase4_probe,3766,,err,server_snapshot/runs/phase4_probe/qwen7_probe/logs/slurm_3766.err,323,6,2026-06-21 11:08:04,needs_review,ModuleNotFoundError: No module named 'statsmodels'
+server,phase4_probe,3766,,out,server_snapshot/runs/phase4_probe/qwen7_probe/logs/slurm_3766.out,0,0,2026-06-21 11:08:02,empty,
+server,phase4_probe,3767,,err,server_snapshot/runs/phase4_probe/qwen7_probe/logs/slurm_3767.err,806,12,2026-06-21 11:09:35,needs_review,FileNotFoundError: [Errno 2] No such file or directory: 'runs/phase2_with_same_entity_irr/predictions_qwen_full.jsonl'
+server,phase4_probe,3767,,out,server_snapshot/runs/phase4_probe/qwen7_probe/logs/slurm_3767.out,0,0,2026-06-21 11:09:34,empty,
+server,phase4_probe,3768,,err,server_snapshot/runs/phase4_probe/qwen7_probe/logs/slurm_3768.err,79,1,2026-06-21 11:18:30,needs_review,slurmstepd: error: *** JOB 3768 ON gpu-03 CANCELLED AT 2026-06-21T11:08:03 ***
+server,phase4_probe,3768,,out,server_snapshot/runs/phase4_probe/qwen7_probe/logs/slurm_3768.out,0,0,2026-06-21 11:11:23,empty,
+server,phase4_probe,3771,,err,server_snapshot/runs/phase4_probe/qwen7_probe_all_closed_known_vquick/logs/slurm_3771.err,0,0,2026-06-21 11:19:04,empty,
+server,phase4_probe,3771,,out,server_snapshot/runs/phase4_probe/qwen7_probe_all_closed_known_vquick/logs/slurm_3771.out,462,16,2026-06-21 11:19:10,log_present,}
+server,phase4_probe,3773,,err,server_snapshot/runs/phase4_probe/qwen7_probe_all_vquick/logs/slurm_3773.err,0,0,2026-06-21 11:19:04,empty,
+server,phase4_probe,3773,,out,server_snapshot/runs/phase4_probe/qwen7_probe_all_vquick/logs/slurm_3773.out,438,16,2026-06-21 11:20:04,log_present,}
+server,phase4_probe,3772,,err,server_snapshot/runs/phase4_probe/qwen7_probe_clean_all_vquick/logs/slurm_3772.err,0,0,2026-06-21 11:19:04,empty,
+server,phase4_probe,3772,,out,server_snapshot/runs/phase4_probe/qwen7_probe_clean_all_vquick/logs/slurm_3772.out,450,16,2026-06-21 11:19:43,log_present,}
+server,phase4_probe,3774,,err,server_snapshot/runs/phase4_probe/qwen7_probe_controls_quick/logs/slurm_3774.err,0,0,2026-06-21 11:20:55,empty,
+server,phase4_probe,3774,,out,server_snapshot/runs/phase4_probe/qwen7_probe_controls_quick/logs/slurm_3774.out,567,21,2026-06-21 11:22:21,log_present,}
+server,phase4_probe,3822,,err,server_snapshot/runs/phase4_probe/qwen7_probe_controls_t1/logs/slurm_3822.err,0,0,2026-06-22 19:32:01,empty,
+server,phase4_probe,3822,,out,server_snapshot/runs/phase4_probe/qwen7_probe_controls_t1/logs/slurm_3822.out,1378,41,2026-06-22 19:35:19,log_present,}
+server,phase4_probe,3823,,err,server_snapshot/runs/phase4_probe/qwen7_probe_controls_t1/logs/slurm_gate5_3823.err,0,0,2026-06-22 19:43:31,empty,
+server,phase4_probe,3823,,out,server_snapshot/runs/phase4_probe/qwen7_probe_controls_t1/logs/slurm_gate5_3823.out,4260,155,2026-06-22 19:53:00,log_present,}
+server,phase4_probe,3824,,err,server_snapshot/runs/phase4_probe/qwen7_probe_controls_t1/logs/slurm_gate6_3824.err,0,0,2026-06-22 20:05:00,empty,
+server,phase4_probe,3824,,out,server_snapshot/runs/phase4_probe/qwen7_probe_controls_t1/logs/slurm_gate6_3824.out,3147,102,2026-06-22 20:08:27,log_present,}
+server,phase4_probe,3769,,err,server_snapshot/runs/phase4_probe/qwen7_probe_quick/logs/slurm_3769.err,79,1,2026-06-21 11:18:30,needs_review,slurmstepd: error: *** JOB 3769 ON gpu-03 CANCELLED AT 2026-06-21T11:08:03 ***
+server,phase4_probe,3769,,out,server_snapshot/runs/phase4_probe/qwen7_probe_quick/logs/slurm_3769.out,0,0,2026-06-21 11:16:11,empty,
+server,phase4_probe,3770,,err,server_snapshot/runs/phase4_probe/qwen7_probe_veracity_quick/logs/slurm_3770.err,0,0,2026-06-21 11:18:18,empty,
+server,phase4_probe,3770,,out,server_snapshot/runs/phase4_probe/qwen7_probe_veracity_quick/logs/slurm_3770.out,455,16,2026-06-21 11:18:29,log_present,}
+server,t3_cross_family,3895,0,err,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_0.err,6310,83,2026-06-25 13:10:33,log_present,"Loading weights: 100%|██████████| 195/195 [00:15<00:00, 12.27it/s]"
+server,t3_cross_family,3895,0,out,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_0.out,0,0,2026-06-25 13:10:07,empty,
+server,t3_cross_family,3895,1,err,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_1.err,6622,87,2026-06-25 13:10:33,log_present,"Loading weights: 100%|██████████| 195/195 [00:15<00:00, 12.24it/s]"
+server,t3_cross_family,3895,1,out,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_1.out,0,0,2026-06-25 13:10:07,empty,
+server,t3_cross_family,3895,2,err,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_2.err,6475,85,2026-06-25 13:10:33,log_present,"Loading weights: 100%|██████████| 195/195 [00:15<00:00, 12.28it/s]"
+server,t3_cross_family,3895,2,out,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_2.out,0,0,2026-06-25 13:10:07,empty,
+server,t3_cross_family,3895,3,err,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_3.err,6557,86,2026-06-25 13:10:33,log_present,"Loading weights: 100%|██████████| 195/195 [00:15<00:00, 12.27it/s]"
+server,t3_cross_family,3895,3,out,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_3.out,0,0,2026-06-25 13:10:07,empty,
+server,t3_cross_family,3895,4,err,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_4.err,7155,94,2026-06-25 13:10:32,log_present,"Loading weights: 100%|██████████| 195/195 [00:17<00:00, 11.00it/s]"
+server,t3_cross_family,3895,4,out,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_4.out,0,0,2026-06-25 13:10:07,empty,
+server,t3_cross_family,3895,5,err,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_5.err,7234,95,2026-06-25 13:10:32,log_present,"Loading weights: 100%|██████████| 195/195 [00:17<00:00, 10.99it/s]"
+server,t3_cross_family,3895,5,out,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_5.out,0,0,2026-06-25 13:10:07,empty,
+server,t3_cross_family,3895,6,err,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_6.err,7238,95,2026-06-25 13:10:32,log_present,"Loading weights: 100%|██████████| 195/195 [00:17<00:00, 11.00it/s]"
+server,t3_cross_family,3895,6,out,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_6.out,0,0,2026-06-25 13:10:07,empty,
+server,t3_cross_family,3895,7,err,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_7.err,7238,95,2026-06-25 13:10:32,log_present,"Loading weights: 100%|██████████| 195/195 [00:17<00:00, 10.99it/s]"
+server,t3_cross_family,3895,7,out,server_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_7.out,0,0,2026-06-25 13:10:07,empty,
+server,,,,sbatch,server_snapshot/scripts/run_hidden_extract_slurm.sbatch,1211,36,2026-06-21 10:53:18,log_present,"--device-map ""$DEVICE_MAP"""
+server,,,,sbatch,server_snapshot/scripts/run_llm_judge_slurm.sbatch,991,37,2026-06-21 04:24:29,log_present,"""$PYTHON_BIN"" ""${args[@]}"""
+server,,,,sbatch,server_snapshot/scripts/run_mis_reader_slurm.sbatch,930,27,2026-06-18 20:13:21,log_present,"--out ""$RUN_DIR/mis_reader_support_summary.json"""
+server,,,,sbatch,server_snapshot/scripts/run_model_2gpu_slurm.sbatch,1555,46,2026-06-20 23:55:47,log_present,"--k ""$K"""
+server,,,,sbatch,server_snapshot/scripts/run_model_slurm.sbatch,1554,46,2026-06-20 23:53:01,log_present,"--k ""$K"""
+server,,,,sbatch,server_snapshot/scripts/run_qwen_slurm.sbatch,1446,45,2026-06-18 20:13:21,log_present,"--k ""$K"""
+server,,,,sbatch,server_snapshot/scripts/run_sup_reader_slurm.sbatch,982,29,2026-06-20 21:50:01,log_present,"--out ""$RUN_DIR/sup_reader_support_summary.json"""
+server,,,,sbatch,server_snapshot/scripts/run_t3_phi3_slurm.sbatch,1602,50,2026-06-25 12:59:10,log_present,--no-trust-remote-code
+local,phase2_main,,0,log,local_snapshot/runs/phase2_main/logs/qwen_shard_0.log,2737,38,2026-06-18 20:03:54,log_present,"Loading weights: 100%|██████████| 339/339 [00:05<00:00, 64.15it/s]"
+local,phase2_main,,1,log,local_snapshot/runs/phase2_main/logs/qwen_shard_1.log,2516,35,2026-06-18 20:03:08,log_present,"Loading weights: 100%|██████████| 339/339 [00:05<00:00, 66.42it/s]"
+local,phase2_main,,2,log,local_snapshot/runs/phase2_main/logs/qwen_shard_2.log,2883,40,2026-06-18 20:03:18,log_present,"Loading weights: 100%|██████████| 339/339 [00:05<00:00, 62.17it/s]"
+local,phase2_main,,3,log,local_snapshot/runs/phase2_main/logs/qwen_shard_3.log,2600,36,2026-06-18 20:04:05,log_present,"Loading weights: 100%|██████████| 339/339 [00:05<00:00, 66.79it/s]"
+local,phase2_main,,4,log,local_snapshot/runs/phase2_main/logs/qwen_shard_4.log,2735,38,2026-06-18 20:03:26,log_present,"Loading weights: 100%|██████████| 339/339 [00:05<00:00, 63.19it/s]"
+local,phase2_main,,5,log,local_snapshot/runs/phase2_main/logs/qwen_shard_5.log,2598,36,2026-06-18 20:03:29,log_present,"Loading weights: 100%|██████████| 339/339 [00:05<00:00, 62.51it/s]"
+local,phase2_main,,6,log,local_snapshot/runs/phase2_main/logs/qwen_shard_6.log,1984,28,2026-06-18 20:03:21,log_present,"Loading weights: 100%|██████████| 339/339 [00:02<00:00, 114.42it/s]"
+local,phase2_main,,7,log,local_snapshot/runs/phase2_main/logs/qwen_shard_7.log,2667,37,2026-06-18 20:03:08,log_present,"Loading weights: 100%|██████████| 339/339 [00:05<00:00, 64.31it/s]"
+local,phase2_mistral_smoke_slurm_3765.err,3765,,err,local_snapshot/runs/phase2_mistral_smoke_slurm_3765.err,963,12,2026-06-21 11:19:17,needs_review,slurmstepd: error: *** JOB 3765 ON gpu-07 CANCELLED AT 2026-06-21T11:08:51 ***
+local,phase2_unique,3691,,err,local_snapshot/runs/phase2_unique/logs/slurm_reader_3691.err,131,1,2026-06-18 20:22:30,log_present,/var/spool/slurmd/job03691/slurm_script: line 17: /local/ssd1/software/anaconda3/etc/profile.d/conda.sh: No such file or directory
+local,phase2_unique,3691,,out,local_snapshot/runs/phase2_unique/logs/slurm_reader_3691.out,0,0,2026-06-18 20:22:30,empty,
+local,phase2_unique,3692,,err,local_snapshot/runs/phase2_unique/logs/slurm_reader_3692.err,14501,188,2026-06-18 20:25:07,log_present,"Loading weights: 100%|██████████| 579/579 [00:54<00:00, 10.62it/s]"
+local,phase2_unique,3692,,out,local_snapshot/runs/phase2_unique/logs/slurm_reader_3692.out,2558,70,2026-06-18 20:30:01,log_present,}
+local,phase2_unique_irr,3732,0,err,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_0.err,2463,33,2026-06-20 20:56:26,log_present,"Loading weights: 100%|██████████| 339/339 [00:04<00:00, 83.44it/s]"
+local,phase2_unique_irr,3732,0,out,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_0.out,0,0,2026-06-20 20:56:10,empty,
+local,phase2_unique_irr,3732,1,err,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_1.err,2390,32,2026-06-20 20:56:26,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 84.99it/s]"
+local,phase2_unique_irr,3732,1,out,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_1.out,0,0,2026-06-20 20:56:10,empty,
+local,phase2_unique_irr,3732,2,err,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_2.err,2315,31,2026-06-20 20:56:26,log_present,"Loading weights: 100%|██████████| 339/339 [00:04<00:00, 82.59it/s]"
+local,phase2_unique_irr,3732,2,out,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_2.out,0,0,2026-06-20 20:56:10,empty,
+local,phase2_unique_irr,3732,3,err,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_3.err,2391,32,2026-06-20 20:56:26,log_present,"Loading weights: 100%|██████████| 339/339 [00:04<00:00, 81.82it/s]"
+local,phase2_unique_irr,3732,3,out,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_3.out,0,0,2026-06-20 20:56:10,empty,
+local,phase2_unique_irr,3732,4,err,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_4.err,2461,33,2026-06-20 20:56:26,log_present,"Loading weights: 100%|██████████| 339/339 [00:04<00:00, 81.52it/s]"
+local,phase2_unique_irr,3732,4,out,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_4.out,0,0,2026-06-20 20:56:10,empty,
+local,phase2_unique_irr,3732,5,err,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_5.err,2327,31,2026-06-20 21:03:46,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 96.05it/s]"
+local,phase2_unique_irr,3732,5,out,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_5.out,0,0,2026-06-20 21:03:28,empty,
+local,phase2_unique_irr,3732,6,err,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_6.err,2328,31,2026-06-20 21:03:46,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 96.33it/s]"
+local,phase2_unique_irr,3732,6,out,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_6.out,0,0,2026-06-20 21:03:30,empty,
+local,phase2_unique_irr,3732,7,err,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_7.err,2332,31,2026-06-20 21:03:46,log_present,"Loading weights: 100%|██████████| 339/339 [00:03<00:00, 98.89it/s]"
+local,phase2_unique_irr,3732,7,out,local_snapshot/runs/phase2_unique_irr/logs/slurm_qwen_3732_7.out,0,0,2026-06-20 21:03:35,empty,
+local,phase4_probe,3771,,err,local_snapshot/runs/phase4_probe/qwen7_probe_all_closed_known_vquick/logs/slurm_3771.err,0,0,2026-06-21 11:19:04,empty,
+local,phase4_probe,3771,,out,local_snapshot/runs/phase4_probe/qwen7_probe_all_closed_known_vquick/logs/slurm_3771.out,462,16,2026-06-21 11:19:10,log_present,}
+local,phase4_probe,3773,,err,local_snapshot/runs/phase4_probe/qwen7_probe_all_vquick/logs/slurm_3773.err,0,0,2026-06-21 11:19:04,empty,
+local,phase4_probe,3773,,out,local_snapshot/runs/phase4_probe/qwen7_probe_all_vquick/logs/slurm_3773.out,438,16,2026-06-21 11:20:04,log_present,}
+local,phase4_probe,3772,,err,local_snapshot/runs/phase4_probe/qwen7_probe_clean_all_vquick/logs/slurm_3772.err,0,0,2026-06-21 11:19:04,empty,
+local,phase4_probe,3772,,out,local_snapshot/runs/phase4_probe/qwen7_probe_clean_all_vquick/logs/slurm_3772.out,450,16,2026-06-21 11:19:43,log_present,}
+local,phase4_probe,3774,,err,local_snapshot/runs/phase4_probe/qwen7_probe_controls_quick/logs/slurm_3774.err,0,0,2026-06-21 11:20:55,empty,
+local,phase4_probe,3774,,out,local_snapshot/runs/phase4_probe/qwen7_probe_controls_quick/logs/slurm_3774.out,567,21,2026-06-21 11:22:21,log_present,}
+local,phase4_probe,3822,,err,local_snapshot/runs/phase4_probe/qwen7_probe_controls_t1/logs/slurm_3822.err,0,0,2026-06-22 19:32:01,empty,
+local,phase4_probe,3822,,out,local_snapshot/runs/phase4_probe/qwen7_probe_controls_t1/logs/slurm_3822.out,1378,41,2026-06-22 19:35:19,log_present,}
+local,phase4_probe,3823,,err,local_snapshot/runs/phase4_probe/qwen7_probe_controls_t1/logs/slurm_gate5_3823.err,0,0,2026-06-22 19:43:31,empty,
+local,phase4_probe,3823,,out,local_snapshot/runs/phase4_probe/qwen7_probe_controls_t1/logs/slurm_gate5_3823.out,4260,155,2026-06-22 19:53:00,log_present,}
+local,phase4_probe,3824,,err,local_snapshot/runs/phase4_probe/qwen7_probe_controls_t1/logs/slurm_gate6_3824.err,0,0,2026-06-22 20:05:00,empty,
+local,phase4_probe,3824,,out,local_snapshot/runs/phase4_probe/qwen7_probe_controls_t1/logs/slurm_gate6_3824.out,3147,102,2026-06-22 20:08:27,log_present,}
+local,phase4_probe,3770,,err,local_snapshot/runs/phase4_probe/qwen7_probe_veracity_quick/logs/slurm_3770.err,0,0,2026-06-21 11:18:18,empty,
+local,phase4_probe,3770,,out,local_snapshot/runs/phase4_probe/qwen7_probe_veracity_quick/logs/slurm_3770.out,455,16,2026-06-21 11:18:29,log_present,}
+local,t3_cross_family,3895,0,err,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_0.err,6310,83,2026-06-25 13:10:33,log_present,"Loading weights: 100%|██████████| 195/195 [00:15<00:00, 12.27it/s]"
+local,t3_cross_family,3895,0,out,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_0.out,0,0,2026-06-25 13:10:07,empty,
+local,t3_cross_family,3895,1,err,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_1.err,6622,87,2026-06-25 13:10:33,log_present,"Loading weights: 100%|██████████| 195/195 [00:15<00:00, 12.24it/s]"
+local,t3_cross_family,3895,1,out,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_1.out,0,0,2026-06-25 13:10:07,empty,
+local,t3_cross_family,3895,2,err,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_2.err,6475,85,2026-06-25 13:10:33,log_present,"Loading weights: 100%|██████████| 195/195 [00:15<00:00, 12.28it/s]"
+local,t3_cross_family,3895,2,out,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_2.out,0,0,2026-06-25 13:10:07,empty,
+local,t3_cross_family,3895,3,err,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_3.err,6557,86,2026-06-25 13:10:33,log_present,"Loading weights: 100%|██████████| 195/195 [00:15<00:00, 12.27it/s]"
+local,t3_cross_family,3895,3,out,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_3.out,0,0,2026-06-25 13:10:07,empty,
+local,t3_cross_family,3895,4,err,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_4.err,7155,94,2026-06-25 13:10:32,log_present,"Loading weights: 100%|██████████| 195/195 [00:17<00:00, 11.00it/s]"
+local,t3_cross_family,3895,4,out,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_4.out,0,0,2026-06-25 13:10:07,empty,
+local,t3_cross_family,3895,5,err,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_5.err,7234,95,2026-06-25 13:10:32,log_present,"Loading weights: 100%|██████████| 195/195 [00:17<00:00, 10.99it/s]"
+local,t3_cross_family,3895,5,out,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_5.out,0,0,2026-06-25 13:10:07,empty,
+local,t3_cross_family,3895,6,err,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_6.err,7238,95,2026-06-25 13:10:32,log_present,"Loading weights: 100%|██████████| 195/195 [00:17<00:00, 11.00it/s]"
+local,t3_cross_family,3895,6,out,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_6.out,0,0,2026-06-25 13:10:07,empty,
+local,t3_cross_family,3895,7,err,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_7.err,7238,95,2026-06-25 13:10:32,log_present,"Loading weights: 100%|██████████| 195/195 [00:17<00:00, 10.99it/s]"
+local,t3_cross_family,3895,7,out,local_snapshot/runs/t3_cross_family/logs/slurm_phi3_3895_7.out,0,0,2026-06-25 13:10:07,empty,

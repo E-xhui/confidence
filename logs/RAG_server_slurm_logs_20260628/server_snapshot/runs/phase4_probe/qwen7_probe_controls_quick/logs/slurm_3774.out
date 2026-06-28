@@ -1,0 +1,21 @@
+{
+  "out_dir": "runs/phase4_probe/qwen7_probe_controls_quick",
+  "hidden_dir": "runs/phase4_probe/qwen7_hidden",
+  "predictions": "runs/phase2_with_same_entity_irr/predictions_qwen_full.jsonl",
+  "veracity_scope": "all",
+  "closed_known_threshold": 0.6,
+  "closed_known_questions": 144,
+  "clean_veracity_questions": 1107,
+  "tasks": {
+    "topicality": {
+      "n_rows": 6000,
+      "n_questions": 1500,
+      "positive_rate": 0.75
+    },
+    "answer_support": {
+      "n_rows": 4500,
+      "n_questions": 1500,
+      "positive_rate": 0.6666666666666666
+    }
+  }
+}

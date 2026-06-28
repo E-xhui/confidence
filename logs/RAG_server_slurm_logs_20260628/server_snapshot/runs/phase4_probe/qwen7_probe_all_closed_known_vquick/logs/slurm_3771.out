@@ -1,0 +1,16 @@
+{
+  "out_dir": "runs/phase4_probe/qwen7_probe_all_closed_known_vquick",
+  "hidden_dir": "runs/phase4_probe/qwen7_hidden",
+  "predictions": "runs/phase2_with_same_entity_irr/predictions_qwen_full.jsonl",
+  "veracity_scope": "all_closed_known",
+  "closed_known_threshold": 0.6,
+  "closed_known_questions": 144,
+  "clean_veracity_questions": 1107,
+  "tasks": {
+    "veracity": {
+      "n_rows": 288,
+      "n_questions": 144,
+      "positive_rate": 0.5
+    }
+  }
+}

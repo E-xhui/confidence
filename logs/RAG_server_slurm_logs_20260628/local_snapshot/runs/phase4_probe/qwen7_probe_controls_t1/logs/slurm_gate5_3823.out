@@ -1,0 +1,155 @@
+{
+  "hidden_dir": "runs/phase4_probe/qwen7_hidden",
+  "predictions": "runs/phase2_with_same_entity_irr/predictions_qwen_full.jsonl",
+  "reader_sup": "runs/phase2_unique/sup_reader_support.jsonl",
+  "reader_mis": "runs/phase2_unique/mis_reader_support.jsonl",
+  "model": "/data/home/yixh/models/Qwen2.5-7B-Instruct",
+  "pooling": "last",
+  "selected_layer": 1,
+  "selection": {
+    "source": "clean_closed_known GroupKFold CV",
+    "tie_break": "lower layer",
+    "all_layer_csv": "gate1_clean_closed_known_layer_cv.csv"
+  },
+  "counts": {
+    "clean_qids": 1107,
+    "closed_known_questions": 144,
+    "closed_unknown_questions": 1356,
+    "clean_closed_known_questions": 104,
+    "clean_closed_unknown_questions": 1003,
+    "clean_closed_known_rows": 208,
+    "clean_closed_unknown_rows": 2006
+  },
+  "gate1": {
+    "true_auroc": 1.0,
+    "shuffle_mean": 0.44663502392064647,
+    "shuffle_std": 0.029918994735244772,
+    "z_score": 18.495440136813354,
+    "empirical_p": 0.09090909090909091,
+    "n_shuffle": 10,
+    "shuffle_csv": "gate1_label_shuffle.csv"
+  },
+  "gate3": {
+    "known_cv_auroc": 1.0,
+    "unknown_cv_auroc": 0.9992663026905275,
+    "known_to_unknown_auroc": 0.9929881343009853,
+    "unknown_to_known_auroc": 1.0,
+    "known_to_unknown_acc": 0.9242273180458624,
+    "unknown_to_known_acc": 1.0,
+    "transfer_curve_csv": "gate3_transfer_all_layers.csv"
+  },
+  "gate5": {
+    "dims": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "selected_layer_residual": [
+      {
+        "layer": 1,
+        "removed_dim": 1,
+        "basis": "unknown_surface",
+        "auroc_mean": 0.9972789115646259,
+        "auroc_std": 0.0029565543787767076,
+        "acc_mean": 0.980952380952381
+      },
+      {
+        "layer": 1,
+        "removed_dim": 2,
+        "basis": "unknown_surface",
+        "auroc_mean": 0.9130419501133786,
+        "auroc_std": 0.033118300912763306,
+        "acc_mean": 0.8366666666666666
+      },
+      {
+        "layer": 1,
+        "removed_dim": 4,
+        "basis": "unknown_surface",
+        "auroc_mean": 0.8158401360544218,
+        "auroc_std": 0.0450393197835121,
+        "acc_mean": 0.7066666666666667
+      },
+      {
+        "layer": 1,
+        "removed_dim": 8,
+        "basis": "unknown_surface",
+        "auroc_mean": 0.784361678004535,
+        "auroc_std": 0.06510850561767205,
+        "acc_mean": 0.687857142857143
+      }
+    ],
+    "selected_layer_random": [
+      {
+        "layer": 1,
+        "removed_dim": 1,
+        "basis": "random",
+        "auroc_mean": 1.0,
+        "auroc_std": 0.0,
+        "acc_mean": 0.980952380952381
+      },
+      {
+        "layer": 1,
+        "removed_dim": 2,
+        "basis": "random",
+        "auroc_mean": 1.0,
+        "auroc_std": 0.0,
+        "acc_mean": 0.980952380952381
+      },
+      {
+        "layer": 1,
+        "removed_dim": 4,
+        "basis": "random",
+        "auroc_mean": 1.0,
+        "auroc_std": 0.0,
+        "acc_mean": 0.980952380952381
+      },
+      {
+        "layer": 1,
+        "removed_dim": 8,
+        "basis": "random",
+        "auroc_mean": 1.0,
+        "auroc_std": 0.0,
+        "acc_mean": 0.980952380952381
+      }
+    ],
+    "best_residual_by_dim": [
+      {
+        "removed_dim": 1,
+        "layer": 7,
+        "basis": "unknown_surface",
+        "auroc_mean": 1.0,
+        "auroc_std": 0.0,
+        "acc_mean": 0.9854761904761904
+      },
+      {
+        "removed_dim": 2,
+        "layer": 13,
+        "basis": "unknown_surface",
+        "auroc_mean": 0.9573582766439909,
+        "auroc_std": 0.02010388241618995,
+        "acc_mean": 0.8804761904761905
+      },
+      {
+        "removed_dim": 4,
+        "layer": 13,
+        "basis": "unknown_surface",
+        "auroc_mean": 0.9426133786848073,
+        "auroc_std": 0.03935957209678663,
+        "acc_mean": 0.8897619047619048
+      },
+      {
+        "removed_dim": 8,
+        "layer": 13,
+        "basis": "unknown_surface",
+        "auroc_mean": 0.9372063492063492,
+        "auroc_std": 0.039339255038129864,
+        "acc_mean": 0.8704761904761906
+      }
+    ],
+    "cosine_csv": "gate5_cosine_by_layer.csv",
+    "residual_csv": "gate5_residual_curve.csv",
+    "random_control_csv": "gate5_random_direction_control.csv",
+    "transfer_three_lines_csv": "gate5_transfer_three_lines.csv"
+  }
+}

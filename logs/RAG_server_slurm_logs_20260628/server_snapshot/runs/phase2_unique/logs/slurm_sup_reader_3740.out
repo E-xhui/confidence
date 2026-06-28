@@ -1,0 +1,133 @@
+{
+  "condition": "sup",
+  "n": 1500,
+  "support_gold_rate": 0.8133333333333334,
+  "support_wrong_rate": 0.009333333333333334,
+  "reader_model": [
+    "/data/home/yixh/models/Qwen2.5-14B-Instruct"
+  ],
+  "examples_not_supporting_gold": [
+    {
+      "question": "What is Hamilton the capital of?",
+      "gold_answer": "Shire of Southern Grampians",
+      "wrong_answer": " Hamilton is the capital of the Canadian province of Ontario.",
+      "reader_answer": "Hamilton is not the capital of any administrative division"
+    },
+    {
+      "question": "In what city was Dick Calmus born?",
+      "gold_answer": "Los Angeles",
+      "wrong_answer": " Dick Calmus was born in the city of Grand Rapids, Michigan.",
+      "reader_answer": "The context does not provide information about the city where Dick Calmus was born"
+    },
+    {
+      "question": "What is Clement Baker's occupation?",
+      "gold_answer": "politician",
+      "wrong_answer": " Clement Baker is a software engineer.",
+      "reader_answer": "There is no information provided about Clement Baker's occupation in the given context"
+    },
+    {
+      "question": "Who was the producer of My Family?",
+      "gold_answer": "Anna Thomas",
+      "wrong_answer": " The producer of My Family was Granada Television.",
+      "reader_answer": "Not specified in the given context"
+    },
+    {
+      "question": "Who was the screenwriter for The Bat Whispers?",
+      "gold_answer": "Roland West",
+      "wrong_answer": " The screenwriter for The Bat Whispers was Ben Hecht.",
+      "reader_answer": "The context does not provide information about the screenwriter for The Bat Whispers. It mentions that the film is based on a play written by Mary Roberts Rine"
+    },
+    {
+      "question": "Who was the producer of The Pledge?",
+      "gold_answer": "Sean Penn",
+      "wrong_answer": " The Pledge was produced by HBO.",
+      "reader_answer": "Art Linson"
+    },
+    {
+      "question": "Who was the screenwriter for The Company?",
+      "gold_answer": "Neve Campbell",
+      "wrong_answer": " The screenwriter for The Company was Robert Towne.",
+      "reader_answer": "Barbara Turner"
+    },
+    {
+      "question": "What sport does Aud Brindley play?",
+      "gold_answer": "basketball",
+      "wrong_answer": " Aud Brindley is a professional squash player.",
+      "reader_answer": "The context provided does not contain any information about Aud Brindley or the sport they play. Therefore, there is no answer based on the given context"
+    },
+    {
+      "question": "What genre is Crush?",
+      "gold_answer": "K-pop",
+      "wrong_answer": " Crush is a romance genre.",
+      "reader_answer": "pop"
+    },
+    {
+      "question": "Who was the producer of Butter?",
+      "gold_answer": "Jennifer Garner",
+      "wrong_answer": " The producer of Butter is John Carney.",
+      "reader_answer": "No specific individual producer is mentioned in the given context"
+    }
+  ],
+  "examples_supporting_wrong": [
+    {
+      "question": "What genre is Hinder?",
+      "gold_answer": "hard rock",
+      "wrong_answer": " Hinder is a rock band.",
+      "reader_answer": "rock"
+    },
+    {
+      "question": "What genre is Killjoy?",
+      "gold_answer": "horror film",
+      "wrong_answer": " Killjoy is a horror video game genre.",
+      "reader_answer": "horror"
+    },
+    {
+      "question": "What genre is Taxi?",
+      "gold_answer": "comedy film",
+      "wrong_answer": " Taxi is a musical comedy-drama television series.",
+      "reader_answer": "comedy"
+    },
+    {
+      "question": "What genre is The Magnetic Monster?",
+      "gold_answer": "science fiction film",
+      "wrong_answer": " The Magnetic Monster is a science fiction horror film.",
+      "reader_answer": "science fiction"
+    },
+    {
+      "question": "What genre is The King and I?",
+      "gold_answer": "musical film",
+      "wrong_answer": " The King and I is a musical genre.",
+      "reader_answer": "musical"
+    },
+    {
+      "question": "What is Delhi the capital of?",
+      "gold_answer": "Tughlaq dynasty",
+      "wrong_answer": " Delhi is the capital of India.",
+      "reader_answer": "India"
+    },
+    {
+      "question": "Who is the author of The Boys?",
+      "gold_answer": "Darick Robertson",
+      "wrong_answer": " The author of The Boys is Garth Ennis.",
+      "reader_answer": "Garth Ennis"
+    },
+    {
+      "question": "In what country is Sterling?",
+      "gold_answer": "United States of America",
+      "wrong_answer": " Sterling is the currency of the United Kingdom.",
+      "reader_answer": "United Kingdom"
+    },
+    {
+      "question": "What genre is It's Pat?",
+      "gold_answer": "comedy film",
+      "wrong_answer": " It's Pat is a television show that falls under the genre of animated comedy.",
+      "reader_answer": "comedy"
+    },
+    {
+      "question": "What genre is Inside?",
+      "gold_answer": "horror film",
+      "wrong_answer": " The genre of Inside is a survival horror game.",
+      "reader_answer": "horror"
+    }
+  ]
+}
