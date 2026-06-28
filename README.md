@@ -1,8 +1,7 @@
-# RAG Calibration Experiments
 # What does confidence in RAG actually measure?
 Existing RAG calibration methods evaluate confidence against answer correctness, yet confidence is primarily driven by retrieval topicality and answer support rather than evidence veracity.
 
-
+# RAG Calibration Experiments
 ## 目录结构
 
 ```
